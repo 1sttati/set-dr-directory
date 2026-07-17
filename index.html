@@ -55,6 +55,9 @@ h1{font-size:26px;font-weight:700;margin:6px 0 2px}
   display:grid;grid-template-columns:150px 1fr;gap:4px 18px;transition:border-color .12s}
 .row:hover{border-color:#3a4656}
 .usym{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:16px;color:var(--gold);line-height:1.3}
+.usym a{color:inherit;text-decoration:none}
+.usym a:hover{text-decoration:underline}
+.usym a::after{content:"↗";font-size:11px;margin-left:4px;opacity:.5}
 .utag{font-size:11px;color:var(--faint);margin-top:2px}
 .uname{font-weight:600;font-size:14.5px}
 .udesc{color:var(--dim);font-size:13.5px;margin-top:1px}
@@ -145,14 +148,14 @@ function render(){
   const terms=q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   let shown=0, drShown=0, html="";
   for(const r of D){
-    const [sym,name,desc,drs,c,t]=r;
+    const [sym,name,desc,drs,c,t,tv]=r;
     if(type!=="all"&&t!==type)continue;
     if(cty!=="all"&&c!==cty)continue;
     const hay=(sym+" "+name+" "+desc+" "+drs+" "+CTY[c]).toLowerCase();
     if(terms.length&&!terms.every(w=>hay.includes(w)))continue;
     shown++; drShown+=drs.split(" ").length;
     html+=`<div class="row">
-      <div><div class="usym">${esc(sym)}</div><div class="utag">${CTY[c]}${t==="etf"?" · ETF":""}</div></div>
+      <div><div class="usym">${tv?`<a href="https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tv)}" target="_blank" rel="noopener" title="ดูกราฟ ${esc(tv)} บน TradingView">${esc(sym)}</a>`:esc(sym)}</div><div class="utag">${CTY[c]}${t==="etf"?" · ETF":""}</div></div>
       <div><div class="uname">${esc(name)}</div><div class="udesc">${esc(desc)}</div></div>
       <div class="drs">${drs.split(" ").map(drChip).join("")}</div>
     </div>`;
@@ -185,7 +188,7 @@ document.getElementById("ctyChips").addEventListener("click",e=>{
 fetch("data/dr.json")
   .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
   .then(rows=>{
-    D=rows.map(o=>[o.symbol,o.name,o.desc,o.drs.join(" "),o.country,o.type]);
+    D=rows.map(o=>[o.symbol,o.name,o.desc,o.drs.join(" "),o.country,o.type,o.tv||null]);
     document.getElementById("totalU").textContent=rows.length;
     document.getElementById("totalD").textContent=rows.reduce((s,o)=>s+o.drs.length,0);
     render();

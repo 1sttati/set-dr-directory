@@ -10,7 +10,8 @@
    "AAPL80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AAPL"
  },
  {
   "symbol": "ABBV",
@@ -21,7 +22,8 @@
    "ABBV80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ABBV"
  },
  {
   "symbol": "ABNB",
@@ -31,7 +33,8 @@
    "ABNB06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ABNB"
  },
  {
   "symbol": "ADBE",
@@ -42,7 +45,8 @@
    "ADBE06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ADBE"
  },
  {
   "symbol": "ADVANT",
@@ -54,7 +58,8 @@
    "ADVANT80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6857"
  },
  {
   "symbol": "AFRM",
@@ -64,7 +69,8 @@
    "AFRM03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AFRM"
  },
  {
   "symbol": "AIA",
@@ -76,7 +82,8 @@
    "AIA23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1299"
  },
  {
   "symbol": "ALAB",
@@ -86,7 +93,8 @@
    "ALAB01"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ALAB"
  },
  {
   "symbol": "AMAT",
@@ -98,7 +106,8 @@
    "AMAT23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AMAT"
  },
  {
   "symbol": "AMD",
@@ -110,7 +119,8 @@
    "AMD80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AMD"
  },
  {
   "symbol": "AMGN",
@@ -120,7 +130,8 @@
    "AMGN06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AMGN"
  },
  {
   "symbol": "AMZN",
@@ -135,7 +146,8 @@
    "AMZN80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AMZN"
  },
  {
   "symbol": "ANET",
@@ -146,7 +158,8 @@
    "ANET80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ANET"
  },
  {
   "symbol": "ANTA",
@@ -157,7 +170,8 @@
    "ANTA23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2020"
  },
  {
   "symbol": "APLD",
@@ -167,7 +181,8 @@
    "APLD03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "APLD"
  },
  {
   "symbol": "APPL",
@@ -177,7 +192,8 @@
    "APPL03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:APP"
  },
  {
   "symbol": "ASEMI ETF",
@@ -188,7 +204,8 @@
    "ASEMI24"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3119"
  },
  {
   "symbol": "ASICS",
@@ -198,7 +215,8 @@
    "ASICS23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:7936"
  },
  {
   "symbol": "ASML",
@@ -208,7 +226,8 @@
    "ASML01"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:ASML"
  },
  {
   "symbol": "ASTS",
@@ -219,7 +238,8 @@
    "ASTS03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ASTS"
  },
  {
   "symbol": "AVGO",
@@ -230,7 +250,8 @@
    "AVGO80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AVGO"
  },
  {
   "symbol": "AXP",
@@ -240,7 +261,8 @@
    "AXP06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "AXP"
  },
  {
   "symbol": "BABA",
@@ -255,7 +277,8 @@
    "BABA80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9988"
  },
  {
   "symbol": "BAC",
@@ -265,7 +288,8 @@
    "BAC03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "BAC"
  },
  {
   "symbol": "BDX",
@@ -275,7 +299,8 @@
    "BDX06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "BDX"
  },
  {
   "symbol": "BIDU",
@@ -288,7 +313,8 @@
    "BIDU80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9888"
  },
  {
   "symbol": "BILIBI",
@@ -298,7 +324,8 @@
    "BILIBILI01"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9626"
  },
  {
   "symbol": "BIREN",
@@ -308,7 +335,8 @@
    "BIREN23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6082"
  },
  {
   "symbol": "BKNG",
@@ -319,7 +347,8 @@
    "BKNG80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "BKNG"
  },
  {
   "symbol": "BLK",
@@ -329,7 +358,8 @@
    "BLK06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "BLK"
  },
  {
   "symbol": "BOEING",
@@ -339,7 +369,8 @@
    "BOEING80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:BA"
  },
  {
   "symbol": "BONDAS ETF",
@@ -370,7 +401,8 @@
    "BRKB80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "BRK.B"
  },
  {
   "symbol": "BYDCOM",
@@ -381,7 +413,8 @@
    "BYDCOM80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1211"
  },
  {
   "symbol": "CAM CSI300 ETF",
@@ -391,7 +424,8 @@
    "CN01"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3188"
  },
  {
   "symbol": "CAM HSTECH ETF",
@@ -401,7 +435,8 @@
    "CNTECH01"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3088"
  },
  {
   "symbol": "CAM JAPAN HDG ETF",
@@ -431,7 +466,8 @@
    "NDX01"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3086"
  },
  {
   "symbol": "CAMBRI",
@@ -441,7 +477,8 @@
    "CAMBRI80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SSE:688256"
  },
  {
   "symbol": "CAT",
@@ -451,7 +488,8 @@
    "CAT19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CAT"
  },
  {
   "symbol": "CATL",
@@ -463,7 +501,8 @@
    "CATL80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3750"
  },
  {
   "symbol": "CCJ",
@@ -473,7 +512,8 @@
    "CCJ23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CCJ"
  },
  {
   "symbol": "CDNS",
@@ -483,7 +523,8 @@
    "CDNS23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CDNS"
  },
  {
   "symbol": "CEG",
@@ -493,7 +534,8 @@
    "CEG23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CEG"
  },
  {
   "symbol": "CHHONGQ",
@@ -503,7 +545,8 @@
    "CHHONGQ19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1378"
  },
  {
   "symbol": "CHMOBILE",
@@ -514,7 +557,8 @@
    "CHMOBILE23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:941"
  },
  {
   "symbol": "CHNXT50 ETF",
@@ -534,7 +578,8 @@
    "CMBANK23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3968"
  },
  {
   "symbol": "CME",
@@ -544,7 +589,8 @@
    "CME03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CME"
  },
  {
   "symbol": "CN CSI300 ETF",
@@ -554,7 +600,8 @@
    "CN23"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "SSE:510330"
  },
  {
   "symbol": "CNBIO ETF",
@@ -564,7 +611,8 @@
    "CNBIO24"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2820"
  },
  {
   "symbol": "CNEV ETF",
@@ -574,7 +622,8 @@
    "CNEV24"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2845"
  },
  {
   "symbol": "CNRE",
@@ -584,7 +633,8 @@
    "CNRE80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SSE:600111"
  },
  {
   "symbol": "CNROBOAI ETF",
@@ -594,7 +644,8 @@
    "CNROBOAI23"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2807"
  },
  {
   "symbol": "CNSEMI ETF",
@@ -604,7 +655,8 @@
    "CNSEMI23"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3191"
  },
  {
   "symbol": "CNSTAR50 ETF",
@@ -625,7 +677,8 @@
    "COHR80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "COHR"
  },
  {
   "symbol": "COIN",
@@ -637,7 +690,8 @@
    "COIN80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "COIN"
  },
  {
   "symbol": "COSTCO",
@@ -648,7 +702,8 @@
    "COSTCO80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:COST"
  },
  {
   "symbol": "CRDO",
@@ -658,7 +713,8 @@
    "CRDO23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CRDO"
  },
  {
   "symbol": "CRM",
@@ -670,7 +726,8 @@
    "CRM80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CRM"
  },
  {
   "symbol": "CRSP",
@@ -680,7 +737,8 @@
    "CRSP03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CRSP"
  },
  {
   "symbol": "CRWD",
@@ -691,7 +749,8 @@
    "CRWD80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CRWD"
  },
  {
   "symbol": "CRWV",
@@ -701,7 +760,8 @@
    "CRWV03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CRWV"
  },
  {
   "symbol": "CSCO",
@@ -711,7 +771,8 @@
    "CSCO06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "CSCO"
  },
  {
   "symbol": "CYPC",
@@ -721,7 +782,8 @@
    "CYPC80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SSE:600900"
  },
  {
   "symbol": "DASH",
@@ -731,7 +793,8 @@
    "DASH03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "DASH"
  },
  {
   "symbol": "DBS",
@@ -741,7 +804,8 @@
    "DBS19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:D05"
  },
  {
   "symbol": "DCVFMVN DIAMOND ETF",
@@ -751,7 +815,8 @@
    "FUEVFVND01"
   ],
   "country": "vn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HOSE:FUEVFVND"
  },
  {
   "symbol": "DCVFMVN30 ETF",
@@ -761,7 +826,8 @@
    "E1VFVN3001"
   ],
   "country": "vn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HOSE:E1VFVN30"
  },
  {
   "symbol": "DDOG",
@@ -771,7 +837,8 @@
    "DDOG19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "DDOG"
  },
  {
   "symbol": "DEAM ETF",
@@ -791,7 +858,8 @@
    "DELL19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "DELL"
  },
  {
   "symbol": "DISCO",
@@ -802,7 +870,8 @@
    "DISCO80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6146"
  },
  {
   "symbol": "DISNEY",
@@ -812,7 +881,8 @@
    "DISNEY19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:DIS"
  },
  {
   "symbol": "DOLLARG",
@@ -822,7 +892,8 @@
    "DOLLARG80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:DG"
  },
  {
   "symbol": "DUOL",
@@ -832,7 +903,8 @@
    "DUOL06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "DUOL"
  },
  {
   "symbol": "EOSE",
@@ -842,7 +914,8 @@
    "EOSE03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EOSE"
  },
  {
   "symbol": "ESTEE",
@@ -852,7 +925,8 @@
    "ESTEE80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:EL"
  },
  {
   "symbol": "ETN",
@@ -862,7 +936,8 @@
    "ETN23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ETN"
  },
  {
   "symbol": "EXPE",
@@ -872,7 +947,8 @@
    "EXPE06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EXPE"
  },
  {
   "symbol": "FABRINET",
@@ -882,7 +958,8 @@
    "FABRINET23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:FN"
  },
  {
   "symbol": "FANUC",
@@ -892,7 +969,8 @@
    "FANUC23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6954"
  },
  {
   "symbol": "FCX",
@@ -902,7 +980,8 @@
    "FCX23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "FCX"
  },
  {
   "symbol": "FERRARI",
@@ -912,7 +991,8 @@
    "FERRARI80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:RACE"
  },
  {
   "symbol": "FPTVN",
@@ -923,7 +1003,8 @@
    "FPTVN19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:FPT"
  },
  {
   "symbol": "FWONK",
@@ -933,7 +1014,8 @@
    "FWONK06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "FWONK"
  },
  {
   "symbol": "GAC",
@@ -943,7 +1025,8 @@
    "GAC03"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2238"
  },
  {
   "symbol": "GANFENG",
@@ -954,7 +1037,8 @@
    "GANFENG80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1772"
  },
  {
   "symbol": "GASVN",
@@ -964,7 +1048,8 @@
    "GASVN11"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:GAS"
  },
  {
   "symbol": "GDS",
@@ -974,7 +1059,8 @@
    "GDS23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9698"
  },
  {
   "symbol": "GEELY",
@@ -985,7 +1071,8 @@
    "GEELY80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:175"
  },
  {
   "symbol": "GEV",
@@ -996,7 +1083,8 @@
    "GEV80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "GEV"
  },
  {
   "symbol": "GIGA",
@@ -1007,7 +1095,8 @@
    "GIGA80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3986"
  },
  {
   "symbol": "GLOBALX INBLU ETF",
@@ -1037,7 +1126,8 @@
    "GLW80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "GLW"
  },
  {
   "symbol": "GOLDM ETF",
@@ -1047,7 +1137,8 @@
    "GOLDM01"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:GLDM"
  },
  {
   "symbol": "GOOG",
@@ -1059,7 +1150,8 @@
    "GOOG80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "GOOG"
  },
  {
   "symbol": "GOOGL",
@@ -1071,7 +1163,8 @@
    "GOOGL19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "GOOGL"
  },
  {
   "symbol": "GRAB",
@@ -1081,7 +1174,8 @@
    "GRAB80"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:GRAB"
  },
  {
   "symbol": "GSEMI ETF",
@@ -1091,7 +1185,8 @@
    "GSEMI24"
   ],
   "country": "jp",
-  "type": "etf"
+  "type": "etf",
+  "tv": "TSE:2243"
  },
  {
   "symbol": "GSUS",
@@ -1101,7 +1196,8 @@
    "GSUS06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:GS"
  },
  {
   "symbol": "HAIERS",
@@ -1111,7 +1207,8 @@
    "HAIERS19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6690"
  },
  {
   "symbol": "HANSOH",
@@ -1121,7 +1218,8 @@
    "HANSOH19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3692"
  },
  {
   "symbol": "HERMES",
@@ -1131,7 +1229,8 @@
    "HERMES80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EURONEXT:RMS"
  },
  {
   "symbol": "HIMS",
@@ -1141,7 +1240,8 @@
    "HIMS03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HIMS"
  },
  {
   "symbol": "HITACHI",
@@ -1151,7 +1251,8 @@
    "HITACHI24"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6501"
  },
  {
   "symbol": "HKEX",
@@ -1161,7 +1262,8 @@
    "HKEX23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:388"
  },
  {
   "symbol": "HONDA",
@@ -1171,7 +1273,8 @@
    "HONDA19"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:7267"
  },
  {
   "symbol": "HOOD",
@@ -1183,7 +1286,8 @@
    "HOOD80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOOD"
  },
  {
   "symbol": "HORIZON",
@@ -1193,7 +1297,8 @@
    "HORIZON23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9660"
  },
  {
   "symbol": "HPG",
@@ -1203,7 +1308,8 @@
    "HPG19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:HPG"
  },
  {
   "symbol": "HS JAPAN TPX100 ETF",
@@ -1223,7 +1329,8 @@
    "HKCE01"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2828"
  },
  {
   "symbol": "HSHD ETF",
@@ -1233,7 +1340,8 @@
    "HSHD23"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3110"
  },
  {
   "symbol": "HSTECH ETF",
@@ -1243,7 +1351,8 @@
    "HKTECH13"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3032"
  },
  {
   "symbol": "HUAHONG",
@@ -1253,7 +1362,8 @@
    "HUAHONG23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1347"
  },
  {
   "symbol": "HYGON",
@@ -1263,7 +1373,8 @@
    "HYGON80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SSE:688041"
  },
  {
   "symbol": "IBM",
@@ -1273,7 +1384,8 @@
    "IBM06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "IBM"
  },
  {
   "symbol": "ICBC",
@@ -1284,7 +1396,8 @@
    "ICBC19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1398"
  },
  {
   "symbol": "IFLYTEK",
@@ -1294,7 +1407,8 @@
    "IFLYTEK80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SZSE:002230"
  },
  {
   "symbol": "INTEL",
@@ -1307,7 +1421,8 @@
    "INTEL23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:INTC"
  },
  {
   "symbol": "INVESCO DB OIL ETF",
@@ -1317,7 +1432,8 @@
    "DBO80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:DBO"
  },
  {
   "symbol": "INVESCO NDAQ100 ETF",
@@ -1327,7 +1443,8 @@
    "QQQM19"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "NASDAQ:QQQM"
  },
  {
   "symbol": "IONQ",
@@ -1338,7 +1455,8 @@
    "IONQ23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "IONQ"
  },
  {
   "symbol": "IS INDIA CLIMATE ETF",
@@ -1361,7 +1479,8 @@
    "ISRG80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ISRG"
  },
  {
   "symbol": "ITOCHU",
@@ -1371,7 +1490,8 @@
    "ITOCHU19"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:8001"
  },
  {
   "symbol": "JD",
@@ -1381,7 +1501,8 @@
    "JD80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9618"
  },
  {
   "symbol": "JDHEAL",
@@ -1391,7 +1512,8 @@
    "JDHEAL19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6618"
  },
  {
   "symbol": "JEPI ETF",
@@ -1401,7 +1523,8 @@
    "JEPI19"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:JEPI"
  },
  {
   "symbol": "JGRO ETF",
@@ -1411,7 +1534,8 @@
    "JGRO19"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:JGRO"
  },
  {
   "symbol": "JLMAG",
@@ -1421,7 +1545,8 @@
    "JLMAG80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6680"
  },
  {
   "symbol": "JNJ",
@@ -1431,7 +1556,8 @@
    "JNJ03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "JNJ"
  },
  {
   "symbol": "JPANIME ETF",
@@ -1441,7 +1567,8 @@
    "JPANIME24"
   ],
   "country": "jp",
-  "type": "etf"
+  "type": "etf",
+  "tv": "TSE:2640"
  },
  {
   "symbol": "JPMUS",
@@ -1452,7 +1579,8 @@
    "JPMUS19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:JPM"
  },
  {
   "symbol": "JPROBOAI ETF",
@@ -1472,7 +1600,8 @@
    "JPSEMI24"
   ],
   "country": "jp",
-  "type": "etf"
+  "type": "etf",
+  "tv": "TSE:2644"
  },
  {
   "symbol": "JTEK ETF",
@@ -1482,7 +1611,8 @@
    "JTEK19"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:JTEK"
  },
  {
   "symbol": "KEYENCE",
@@ -1492,7 +1622,8 @@
    "KEYENCE23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6861"
  },
  {
   "symbol": "KGI TAIWAN AI 50 ETF",
@@ -1542,7 +1673,8 @@
    "KINGSOFT23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3888"
  },
  {
   "symbol": "KIOXIA",
@@ -1552,7 +1684,8 @@
    "KIOXIA23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:285A"
  },
  {
   "symbol": "KLAC",
@@ -1564,7 +1697,8 @@
    "KLAC23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "KLAC"
  },
  {
   "symbol": "KO",
@@ -1574,7 +1708,8 @@
    "KO80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "KO"
  },
  {
   "symbol": "KONAMI",
@@ -1584,7 +1719,8 @@
    "KONAMI24"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:9766"
  },
  {
   "symbol": "KUAISH",
@@ -1597,7 +1733,8 @@
    "KUAISH80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1024"
  },
  {
   "symbol": "LAOPU",
@@ -1607,7 +1744,8 @@
    "LPGOLD13"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6181"
  },
  {
   "symbol": "LENOVO",
@@ -1617,7 +1755,8 @@
    "LENOVO13"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:992"
  },
  {
   "symbol": "LITE",
@@ -1629,7 +1768,8 @@
    "LITE80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "LITE"
  },
  {
   "symbol": "LLY",
@@ -1640,7 +1780,8 @@
    "LLY80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "LLY"
  },
  {
   "symbol": "LOREAL",
@@ -1650,7 +1791,8 @@
    "LOREAL80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EURONEXT:OR"
  },
  {
   "symbol": "LRCX",
@@ -1663,7 +1805,8 @@
    "LRCX80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "LRCX"
  },
  {
   "symbol": "LULU",
@@ -1673,7 +1816,8 @@
    "LULU06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "LULU"
  },
  {
   "symbol": "LVMH",
@@ -1683,7 +1827,8 @@
    "LVMH01"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EURONEXT:MC"
  },
  {
   "symbol": "MA",
@@ -1693,7 +1838,8 @@
    "MA80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MA"
  },
  {
   "symbol": "MAOGEP",
@@ -1703,7 +1849,8 @@
    "MAOGEP80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1318"
  },
  {
   "symbol": "MEITUAN",
@@ -1715,7 +1862,8 @@
    "MEITUAN80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:3690"
  },
  {
   "symbol": "MELI",
@@ -1726,7 +1874,8 @@
    "MELI23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MELI"
  },
  {
   "symbol": "META",
@@ -1739,7 +1888,8 @@
    "META80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "META"
  },
  {
   "symbol": "MICRON",
@@ -1753,7 +1903,8 @@
    "MICRON80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MU"
  },
  {
   "symbol": "MIDEA",
@@ -1763,7 +1914,8 @@
    "MIDEA80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:300"
  },
  {
   "symbol": "MITSU",
@@ -1773,7 +1925,8 @@
    "MITSU19"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:7011"
  },
  {
   "symbol": "MIXUE",
@@ -1783,7 +1936,8 @@
    "MIXUE80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2097"
  },
  {
   "symbol": "MNSO",
@@ -1793,7 +1947,8 @@
    "MNSO80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9896"
  },
  {
   "symbol": "MNST",
@@ -1803,7 +1958,8 @@
    "MNST06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MNST"
  },
  {
   "symbol": "MONTAGE",
@@ -1813,7 +1969,8 @@
    "MONTAGE80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:6809"
  },
  {
   "symbol": "MOUTAI",
@@ -1823,7 +1980,8 @@
    "MOUTAI80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SSE:600519"
  },
  {
   "symbol": "MP",
@@ -1834,7 +1992,8 @@
    "MP80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MP"
  },
  {
   "symbol": "MPWR",
@@ -1844,7 +2003,8 @@
    "MPWR23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MPWR"
  },
  {
   "symbol": "MRVL",
@@ -1856,7 +2016,8 @@
    "MRVL80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MRVL"
  },
  {
   "symbol": "MS",
@@ -1866,7 +2027,8 @@
    "MS06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MS"
  },
  {
   "symbol": "MSFT",
@@ -1881,7 +2043,8 @@
    "MSFT80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "MSFT"
  },
  {
   "symbol": "MSN",
@@ -1892,7 +2055,8 @@
    "MSN19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:MSN"
  },
  {
   "symbol": "MUFG",
@@ -1903,7 +2067,8 @@
    "MUFG23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:8306"
  },
  {
   "symbol": "MWG",
@@ -1914,7 +2079,8 @@
    "MWG19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:MWG"
  },
  {
   "symbol": "NAURA",
@@ -1925,7 +2091,8 @@
    "NAURA80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SZSE:002371"
  },
  {
   "symbol": "NBIS",
@@ -1938,7 +2105,8 @@
    "NBIS80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NBIS"
  },
  {
   "symbol": "NDAQ",
@@ -1948,7 +2116,8 @@
    "NDAQ06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NDAQ"
  },
  {
   "symbol": "NEE",
@@ -1958,7 +2127,8 @@
    "NEE80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NEE"
  },
  {
   "symbol": "NEM",
@@ -1969,7 +2139,8 @@
    "NEM23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NEM"
  },
  {
   "symbol": "NET",
@@ -1979,7 +2150,8 @@
    "NET03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NET"
  },
  {
   "symbol": "NFLX",
@@ -1990,7 +2162,8 @@
    "NFLX80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NFLX"
  },
  {
   "symbol": "NIKE",
@@ -2000,7 +2173,8 @@
    "NIKE80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:NKE"
  },
  {
   "symbol": "NIKKEI ETF",
@@ -2010,7 +2184,8 @@
    "NIKKEI80"
   ],
   "country": "jp",
-  "type": "etf"
+  "type": "etf",
+  "tv": "TSE:1321"
  },
  {
   "symbol": "NINTENDO",
@@ -2021,7 +2196,8 @@
    "NINTENDO23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:7974"
  },
  {
   "symbol": "NONGFU",
@@ -2031,7 +2207,8 @@
    "NONGFU80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9633"
  },
  {
   "symbol": "NOVOB",
@@ -2041,7 +2218,8 @@
    "NOVOB80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "OMXCOP:NOVO_B"
  },
  {
   "symbol": "NOW",
@@ -2051,7 +2229,8 @@
    "NOW19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NOW"
  },
  {
   "symbol": "NTES",
@@ -2061,7 +2240,8 @@
    "NETEASE80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9999"
  },
  {
   "symbol": "NVDA",
@@ -2076,7 +2256,8 @@
    "NVDA80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NVDA"
  },
  {
   "symbol": "NVTS",
@@ -2087,7 +2268,8 @@
    "NVTS23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NVTS"
  },
  {
   "symbol": "OKLO",
@@ -2097,7 +2279,8 @@
    "OKLO23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "OKLO"
  },
  {
   "symbol": "ON",
@@ -2107,7 +2290,8 @@
    "ON23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ON"
  },
  {
   "symbol": "ONON",
@@ -2117,7 +2301,8 @@
    "ONON03"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:ONON"
  },
  {
   "symbol": "ORCL",
@@ -2130,7 +2315,8 @@
    "ORCL80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "ORCL"
  },
  {
   "symbol": "PANW",
@@ -2141,7 +2327,8 @@
    "PANW80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "PANW"
  },
  {
   "symbol": "PEP",
@@ -2151,7 +2338,8 @@
    "PEP80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "PEP"
  },
  {
   "symbol": "PETROCN",
@@ -2161,7 +2349,8 @@
    "PETROCN80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:857"
  },
  {
   "symbol": "PFIZER",
@@ -2171,7 +2360,8 @@
    "PFIZER19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:PFE"
  },
  {
   "symbol": "PINGAN",
@@ -2182,7 +2372,8 @@
    "PINGAN80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2318"
  },
  {
   "symbol": "PLTR",
@@ -2195,7 +2386,8 @@
    "PLTR23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "PLTR"
  },
  {
   "symbol": "PNG",
@@ -2205,7 +2397,8 @@
    "PNG80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:PG"
  },
  {
   "symbol": "POPMART",
@@ -2216,7 +2409,8 @@
    "POPMART80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9992"
  },
  {
   "symbol": "PREMIA STAR50 ETF",
@@ -2226,7 +2420,8 @@
    "STAR5001"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:3151"
  },
  {
   "symbol": "PYPL",
@@ -2236,7 +2431,8 @@
    "PYPL06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "PYPL"
  },
  {
   "symbol": "QCOM",
@@ -2246,7 +2442,8 @@
    "QCOM06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "QCOM"
  },
  {
   "symbol": "RBLX",
@@ -2256,7 +2453,8 @@
    "RBLX06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "RBLX"
  },
  {
   "symbol": "REMX ETF",
@@ -2266,7 +2464,8 @@
    "REMX03"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:REMX"
  },
  {
   "symbol": "RGTI",
@@ -2276,7 +2475,8 @@
    "RGTI03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "RGTI"
  },
  {
   "symbol": "RKLB",
@@ -2289,7 +2489,8 @@
    "RKLB80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "RKLB"
  },
  {
   "symbol": "S&P CRUDE OIL ETF",
@@ -2310,7 +2511,8 @@
    "SANOFI80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EURONEXT:SAN"
  },
  {
   "symbol": "SANRIO",
@@ -2321,7 +2523,8 @@
    "SANRIO80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:8136"
  },
  {
   "symbol": "SBUX",
@@ -2331,7 +2534,8 @@
    "SBUX80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SBUX"
  },
  {
   "symbol": "SCHDER",
@@ -2341,7 +2545,8 @@
    "SCHDER80"
   ],
   "country": "eu",
-  "type": "stock"
+  "type": "stock",
+  "tv": "EURONEXT:SU"
  },
  {
   "symbol": "SEAGATE",
@@ -2351,7 +2556,8 @@
    "SEAGATE23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "STX"
  },
  {
   "symbol": "SEMB",
@@ -2361,7 +2567,8 @@
    "SEMB19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:U96"
  },
  {
   "symbol": "SENSE",
@@ -2371,7 +2578,8 @@
    "SENSE23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:20"
  },
  {
   "symbol": "SGX",
@@ -2381,7 +2589,8 @@
    "SGX19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:S68"
  },
  {
   "symbol": "SHINCHEM",
@@ -2392,7 +2601,8 @@
    "SHINCHEM80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:4063"
  },
  {
   "symbol": "SHOP",
@@ -2403,7 +2613,8 @@
    "SHOP06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SHOP"
  },
  {
   "symbol": "SIA",
@@ -2413,7 +2624,8 @@
    "SIA19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:C6L"
  },
  {
   "symbol": "SIL ETF",
@@ -2423,7 +2635,8 @@
    "SIL03"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:SIL"
  },
  {
   "symbol": "SINGTEL",
@@ -2433,7 +2646,8 @@
    "SINGTEL80"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:Z74"
  },
  {
   "symbol": "SINOBIO",
@@ -2443,7 +2657,8 @@
    "SINOBIO19"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1177"
  },
  {
   "symbol": "SMCI",
@@ -2453,7 +2668,8 @@
    "SMCI03"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SMCI"
  },
  {
   "symbol": "SMFG",
@@ -2463,7 +2679,8 @@
    "SMFG19"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:8316"
  },
  {
   "symbol": "SMIC",
@@ -2476,7 +2693,8 @@
    "SMIC23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:981"
  },
  {
   "symbol": "SNDK",
@@ -2488,7 +2706,8 @@
    "SNDK80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SNDK"
  },
  {
   "symbol": "SNOW",
@@ -2499,7 +2718,8 @@
    "SNOW23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SNOW"
  },
  {
   "symbol": "SOFI",
@@ -2509,7 +2729,8 @@
    "SOFI23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SOFI"
  },
  {
   "symbol": "SOFTBANK",
@@ -2520,7 +2741,8 @@
    "SOFTBANK80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:9984"
  },
  {
   "symbol": "SONY",
@@ -2530,7 +2752,8 @@
    "SONY80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:6758"
  },
  {
   "symbol": "SP500HK ETF",
@@ -2551,7 +2774,8 @@
    "SP500US80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:SPLG"
  },
  {
   "symbol": "SPACEX",
@@ -2575,7 +2799,8 @@
    "SPBOND80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:SPAB"
  },
  {
   "symbol": "SPCOM ETF",
@@ -2585,7 +2810,8 @@
    "SPCOM80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:XLC"
  },
  {
   "symbol": "SPDR GOLD HK ETF",
@@ -2595,7 +2821,8 @@
    "GOLD03"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2840"
  },
  {
   "symbol": "SPDR GOLD US ETF",
@@ -2607,7 +2834,8 @@
    "GOLDUS80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:GLD"
  },
  {
   "symbol": "SPDR GOLD SG ETF",
@@ -2627,7 +2855,8 @@
    "SPENGY80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:XLE"
  },
  {
   "symbol": "SPFIN ETF",
@@ -2637,7 +2866,8 @@
    "SPFIN80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:XLF"
  },
  {
   "symbol": "SPHLTH ETF",
@@ -2647,7 +2877,8 @@
    "SPHLTH80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:XLV"
  },
  {
   "symbol": "SPOT",
@@ -2657,7 +2888,8 @@
    "SPOT06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SPOT"
  },
  {
   "symbol": "SPTECH ETF",
@@ -2667,7 +2899,8 @@
    "SPTECH80"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:XLK"
  },
  {
   "symbol": "STEG",
@@ -2677,7 +2910,8 @@
    "STEG19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:S63"
  },
  {
   "symbol": "SUNNY",
@@ -2688,7 +2922,8 @@
    "SUNNY80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2382"
  },
  {
   "symbol": "SUSHI",
@@ -2698,7 +2933,8 @@
    "SUSHI23"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:3563"
  },
  {
   "symbol": "SYM",
@@ -2708,7 +2944,8 @@
    "SYM23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SYM"
  },
  {
   "symbol": "SYNP",
@@ -2719,7 +2956,8 @@
    "SYNP23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SYNP"
  },
  {
   "symbol": "TEL",
@@ -2730,7 +2968,8 @@
    "TEL80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:8035"
  },
  {
   "symbol": "TENCENT",
@@ -2745,7 +2984,8 @@
    "TENCENT80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:700"
  },
  {
   "symbol": "TER",
@@ -2757,7 +2997,8 @@
    "TER80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TER"
  },
  {
   "symbol": "THAIBEV",
@@ -2767,7 +3008,8 @@
    "THAIBEV19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:Y92"
  },
  {
   "symbol": "TME",
@@ -2777,7 +3019,8 @@
    "TME23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1698"
  },
  {
   "symbol": "TOYOTA",
@@ -2787,7 +3030,8 @@
    "TOYOTA80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:7203"
  },
  {
   "symbol": "TRAHK ETF",
@@ -2798,7 +3042,8 @@
    "HK13"
   ],
   "country": "cn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HKEX:2800"
  },
  {
   "symbol": "TRIPCOM",
@@ -2809,7 +3054,8 @@
    "TRIPCOM80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9961"
  },
  {
   "symbol": "TRVUS",
@@ -2819,7 +3065,8 @@
    "TRVUS06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:TRV"
  },
  {
   "symbol": "TSEMI",
@@ -2829,7 +3076,8 @@
    "TSEMI23"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NASDAQ:TSEM"
  },
  {
   "symbol": "TSLA",
@@ -2842,7 +3090,8 @@
    "TSLA80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSLA"
  },
  {
   "symbol": "UBER",
@@ -2852,7 +3101,8 @@
    "UBER06"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "UBER"
  },
  {
   "symbol": "UBTECH",
@@ -2862,7 +3112,8 @@
    "UBTECH23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9880"
  },
  {
   "symbol": "UNH",
@@ -2872,7 +3123,8 @@
    "UNH19"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "UNH"
  },
  {
   "symbol": "UNIQLO",
@@ -2882,7 +3134,8 @@
    "UNIQLO80"
   ],
   "country": "jp",
-  "type": "stock"
+  "type": "stock",
+  "tv": "TSE:9983"
  },
  {
   "symbol": "UOB",
@@ -2892,7 +3145,8 @@
    "UOB19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:U11"
  },
  {
   "symbol": "USTR ETF",
@@ -2913,7 +3167,8 @@
    "VCB19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:VCB"
  },
  {
   "symbol": "VENTURE",
@@ -2923,7 +3178,8 @@
    "VENTURE19"
   ],
   "country": "sg",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SGX:V03"
  },
  {
   "symbol": "VGT",
@@ -2933,7 +3189,8 @@
    "VGT80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2476"
  },
  {
   "symbol": "VHM",
@@ -2943,7 +3200,8 @@
    "VHM19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:VHM"
  },
  {
   "symbol": "VICR",
@@ -2953,7 +3211,8 @@
    "VICR80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "VICR"
  },
  {
   "symbol": "VISA",
@@ -2964,7 +3223,8 @@
    "VISA80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "NYSE:V"
  },
  {
   "symbol": "VNFIN LEAD ETF",
@@ -2974,7 +3234,8 @@
    "VNFIN24"
   ],
   "country": "vn",
-  "type": "etf"
+  "type": "etf",
+  "tv": "HOSE:FUESSVFL"
  },
  {
   "symbol": "VNM",
@@ -2984,7 +3245,8 @@
    "VNM19"
   ],
   "country": "vn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HOSE:VNM"
  },
  {
   "symbol": "VRT",
@@ -2996,7 +3258,8 @@
    "VRT80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "VRT"
  },
  {
   "symbol": "VT ETF",
@@ -3006,7 +3269,8 @@
    "VT03"
   ],
   "country": "us",
-  "type": "etf"
+  "type": "etf",
+  "tv": "AMEX:VT"
  },
  {
   "symbol": "WMT",
@@ -3017,7 +3281,8 @@
    "WMT80"
   ],
   "country": "us",
-  "type": "stock"
+  "type": "stock",
+  "tv": "WMT"
  },
  {
   "symbol": "WORLDA ETF",
@@ -3038,7 +3303,8 @@
    "WUXI13"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2269"
  },
  {
   "symbol": "WUXIAT",
@@ -3048,7 +3314,8 @@
    "WUXIAT80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2359"
  },
  {
   "symbol": "XIAOMI",
@@ -3062,7 +3329,8 @@
    "XIAOMI80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:1810"
  },
  {
   "symbol": "XPENG",
@@ -3072,7 +3340,8 @@
    "XPENG03"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:9868"
  },
  {
   "symbol": "YT TAIWAN50 ETF",
@@ -3082,7 +3351,8 @@
    "TAIWAN19"
   ],
   "country": "tw",
-  "type": "etf"
+  "type": "etf",
+  "tv": "TWSE:0050"
  },
  {
   "symbol": "ZAI",
@@ -3092,7 +3362,8 @@
    "ZAI23"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2513"
  },
  {
   "symbol": "ZIJIN",
@@ -3104,7 +3375,8 @@
    "ZIJIN80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "HKEX:2899"
  },
  {
   "symbol": "ZJINNO",
@@ -3114,6 +3386,7 @@
    "ZJINNO80"
   ],
   "country": "cn",
-  "type": "stock"
+  "type": "stock",
+  "tv": "SZSE:300308"
  }
 ]
