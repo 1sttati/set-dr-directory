@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ทำเนียบ DR ตลาดหุ้นไทย</title>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0e1116; --panel:#161b22; --panel2:#1c232d; --line:#2a3340;
+  --text:#e8edf3; --dim:#94a3b5; --faint:#5c6b7d;
+  --gold:#e8b64c;
+  --c01:#4c9fe8; --c03:#a06ee0; --c06:#3fb98a; --c11:#e06e9c;
+  --c13:#e0864c; --c19:#d9c24a; --c23:#5ac8d8; --c24:#8a9be0; --c80:#e05c5c;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Anuphan',sans-serif;font-size:15px;line-height:1.55}
+.mono{font-family:'JetBrains Mono',monospace}
+
+header{padding:28px 20px 18px;max-width:960px;margin:0 auto}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+h1{font-size:26px;font-weight:700;margin:6px 0 2px}
+.sub{color:var(--dim);font-size:13.5px}
+.sub b{color:var(--text)}
+
+.controls{position:sticky;top:0;z-index:10;background:linear-gradient(var(--bg) 85%,transparent);padding:10px 20px 14px}
+.controls-inner{max-width:960px;margin:0 auto}
+.searchwrap{position:relative}
+.searchwrap svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.45}
+#q{width:100%;padding:13px 44px 13px 42px;font-size:16px;font-family:inherit;color:var(--text);
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;outline:none;transition:border-color .15s}
+#q:focus{border-color:var(--gold)}
+#q::placeholder{color:var(--faint)}
+#clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:var(--panel2);border:none;
+  color:var(--dim);width:28px;height:28px;border-radius:8px;cursor:pointer;display:none;font-size:14px}
+
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{background:var(--panel);border:1px solid var(--line);color:var(--dim);padding:6px 13px;border-radius:99px;
+  font-size:13px;font-family:inherit;cursor:pointer;transition:all .12s;white-space:nowrap}
+.chip:hover{color:var(--text)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:#1a1206;font-weight:600}
+.chiprow2{margin-top:6px}
+.chiprow2 .chip.on{background:var(--panel2);border-color:var(--dim);color:var(--text)}
+
+.legend{max-width:960px;margin:2px auto 0;padding:0 20px;display:flex;gap:5px 12px;flex-wrap:wrap;align-items:center}
+.legend .lt{font-size:12px;color:var(--faint)}
+.lg{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--dim)}
+.dot{width:8px;height:8px;border-radius:2px;display:inline-block}
+
+#count{max-width:960px;margin:14px auto 6px;padding:0 20px;font-size:12.5px;color:var(--faint);font-family:'JetBrains Mono',monospace}
+
+#list{max-width:960px;margin:0 auto 60px;padding:0 20px;display:flex;flex-direction:column;gap:8px}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+  display:grid;grid-template-columns:150px 1fr;gap:4px 18px;transition:border-color .12s}
+.row:hover{border-color:#3a4656}
+.usym{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:16px;color:var(--gold);line-height:1.3}
+.utag{font-size:11px;color:var(--faint);margin-top:2px}
+.uname{font-weight:600;font-size:14.5px}
+.udesc{color:var(--dim);font-size:13.5px;margin-top:1px}
+.drs{grid-column:2;display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.dr{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;padding:3px 9px;border-radius:6px;
+  background:var(--panel2);border:1px solid var(--line);color:var(--text)}
+.dr b{font-weight:700}
+.empty{text-align:center;color:var(--faint);padding:60px 0}
+footer{max-width:960px;margin:0 auto;padding:0 20px 40px;color:var(--faint);font-size:12px;line-height:1.7}
+
+@media(max-width:640px){
+  .row{grid-template-columns:1fr}
+  .drs{grid-column:1}
+  header{padding:22px 16px 12px}
+  h1{font-size:22px}
+  .controls,#count,#list,.legend,footer{padding-left:16px;padding-right:16px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">SET · Depositary Receipts</div>
+  <h1>ทำเนียบ DR ตลาดหุ้นไทย</h1>
+  <div class="sub">รวมหุ้นแม่ทั้งหมด <b id="totalU"></b> ตัว / DR <b id="totalD"></b> รุ่น ในหน้าเดียว — พิมพ์ค้นได้ทั้งชื่อ DR, หุ้นแม่, ธีมธุรกิจ หรือประเทศ</div>
+</header>
+
+<div class="controls"><div class="controls-inner">
+  <div class="searchwrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e8edf3" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+    <input id="q" type="text" placeholder="เช่น AAPL, QQQM19, ชิป, EV, ทองคำ, ญี่ปุ่น…" autocomplete="off">
+    <button id="clear" aria-label="ล้างคำค้น">✕</button>
+  </div>
+  <div class="chips" id="typeChips">
+    <button class="chip on" data-t="all">ทั้งหมด</button>
+    <button class="chip" data-t="stock">หุ้นรายตัว</button>
+    <button class="chip" data-t="etf">ETF</button>
+  </div>
+  <div class="chips chiprow2" id="ctyChips">
+    <button class="chip on" data-c="all">ทุกประเทศ</button>
+    <button class="chip" data-c="us">🇺🇸 สหรัฐฯ</button>
+    <button class="chip" data-c="cn">🇨🇳 จีน/ฮ่องกง</button>
+    <button class="chip" data-c="jp">🇯🇵 ญี่ปุ่น</button>
+    <button class="chip" data-c="vn">🇻🇳 เวียดนาม</button>
+    <button class="chip" data-c="sg">🇸🇬 สิงคโปร์</button>
+    <button class="chip" data-c="tw">🇹🇼 ไต้หวัน</button>
+    <button class="chip" data-c="eu">🇪🇺 ยุโรป</button>
+  </div>
+</div></div>
+
+<div class="legend">
+  <span class="lt">เลขท้าย = ผู้ออก:</span>
+  <span class="lg"><span class="dot" style="background:var(--c01)"></span>01 บัวหลวง</span>
+  <span class="lg"><span class="dot" style="background:var(--c06)"></span>06 เกียรตินาคินภัทร</span>
+  <span class="lg"><span class="dot" style="background:var(--c13)"></span>13 KGI</span>
+  <span class="lg"><span class="dot" style="background:var(--c19)"></span>19 หยวนต้า</span>
+  <span class="lg"><span class="dot" style="background:var(--c23)"></span>23 InnovestX</span>
+  <span class="lg"><span class="dot" style="background:var(--c80)"></span>80 กรุงไทย</span>
+</div>
+
+<div id="count"></div>
+<div id="list"></div>
+<footer>เรียบเรียงจากข้อมูลรายชื่อ DR ของตลาดหลักทรัพย์แห่งประเทศไทย (ณ ก.ค. 2569) · คำอธิบายธุรกิจเป็นสรุปอย่างย่อ ควรตรวจสอบข้อมูลล่าสุดกับผู้ออกก่อนลงทุน · DR ที่อ้างอิงหุ้นแม่เดียวกันต่างกันที่ผู้ออกและอัตราแปลงสภาพ</footer>
+
+<script>
+let D=[];
+
+const CTY={us:"🇺🇸 สหรัฐฯ",cn:"🇨🇳 จีน/ฮ่องกง",jp:"🇯🇵 ญี่ปุ่น",vn:"🇻🇳 เวียดนาม",sg:"🇸🇬 สิงคโปร์",tw:"🇹🇼 ไต้หวัน",eu:"🇪🇺 ยุโรป"};
+const ISSUER={"01":"บล.บัวหลวง","06":"บล.เกียรตินาคินภัทร","13":"บล.KGI","19":"บล.หยวนต้า","23":"บล.InnovestX","80":"ธ.กรุงไทย"};
+const COLORS={"01":"--c01","03":"--c03","06":"--c06","11":"--c11","13":"--c13","19":"--c19","23":"--c23","24":"--c24","80":"--c80"};
+
+let type="all", cty="all", q="";
+const list=document.getElementById("list"), count=document.getElementById("count");
+
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+function drChip(sym){
+  const m=sym.match(/(\d{2})$/); const suf=m?m[1]:"";
+  const cvar=COLORS[suf]||"--dim";
+  const iss=ISSUER[suf]?` title="ผู้ออก: ${ISSUER[suf]}"`:"";
+  const base=suf?sym.slice(0,-2):sym;
+  return `<span class="dr" style="border-left:3px solid var(${cvar})"${iss}>${esc(base)}<b style="color:var(${cvar})">${suf}</b></span>`;
+}
+
+function render(){
+  const terms=q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  let shown=0, drShown=0, html="";
+  for(const r of D){
+    const [sym,name,desc,drs,c,t]=r;
+    if(type!=="all"&&t!==type)continue;
+    if(cty!=="all"&&c!==cty)continue;
+    const hay=(sym+" "+name+" "+desc+" "+drs+" "+CTY[c]).toLowerCase();
+    if(terms.length&&!terms.every(w=>hay.includes(w)))continue;
+    shown++; drShown+=drs.split(" ").length;
+    html+=`<div class="row">
+      <div><div class="usym">${esc(sym)}</div><div class="utag">${CTY[c]}${t==="etf"?" · ETF":""}</div></div>
+      <div><div class="uname">${esc(name)}</div><div class="udesc">${esc(desc)}</div></div>
+      <div class="drs">${drs.split(" ").map(drChip).join("")}</div>
+    </div>`;
+  }
+  list.innerHTML=html||`<div class="empty">ไม่พบผลลัพธ์ — ลองคำค้นอื่น เช่น "ชิป" "ทองคำ" "EV"</div>`;
+  count.textContent=`แสดง ${shown} หุ้นแม่ · ${drShown} DR`;
+}
+
+document.getElementById("q").addEventListener("input",e=>{
+  q=e.target.value;
+  document.getElementById("clear").style.display=q?"block":"none";
+  render();
+});
+document.getElementById("clear").addEventListener("click",()=>{
+  q="";const el=document.getElementById("q");el.value="";el.focus();
+  document.getElementById("clear").style.display="none";render();
+});
+document.getElementById("typeChips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip");if(!b)return;
+  type=b.dataset.t;
+  document.querySelectorAll("#typeChips .chip").forEach(x=>x.classList.toggle("on",x===b));
+  render();
+});
+document.getElementById("ctyChips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip");if(!b)return;
+  cty=b.dataset.c;
+  document.querySelectorAll("#ctyChips .chip").forEach(x=>x.classList.toggle("on",x===b));
+  render();
+});
+fetch("data/dr.json")
+  .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
+  .then(rows=>{
+    D=rows.map(o=>[o.symbol,o.name,o.desc,o.drs.join(" "),o.country,o.type]);
+    document.getElementById("totalU").textContent=rows.length;
+    document.getElementById("totalD").textContent=rows.reduce((s,o)=>s+o.drs.length,0);
+    render();
+  })
+  .catch(()=>{list.innerHTML='<div class="empty">โหลดข้อมูลไม่สำเร็จ — กรุณาลองใหม่</div>'});
+</script>
+</body>
+</html>

@@ -1,0 +1,3119 @@
+[
+ {
+  "symbol": "AAPL",
+  "name": "Apple Inc.",
+  "desc": "iPhone, iPad, Mac และบริการดิจิทัล หนึ่งใน Magnificent 7",
+  "drs": [
+   "AAPL01",
+   "AAPL03",
+   "AAPL19",
+   "AAPL80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ABBV",
+  "name": "AbbVie",
+  "desc": "ยาชีวเภสัชรายใหญ่ เจ้าของ Humira, Skyrizi",
+  "drs": [
+   "ABBV19",
+   "ABBV80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ABNB",
+  "name": "Airbnb",
+  "desc": "แพลตฟอร์มจองที่พักและประสบการณ์ท่องเที่ยว",
+  "drs": [
+   "ABNB06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ADBE",
+  "name": "Adobe",
+  "desc": "ซอฟต์แวร์ครีเอทีฟ Photoshop, Illustrator, Acrobat",
+  "drs": [
+   "ADBE03",
+   "ADBE06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ADVANT",
+  "name": "Advantest (6857)",
+  "desc": "เครื่องทดสอบชิปเซมิคอนดักเตอร์รายใหญ่ของญี่ปุ่น",
+  "drs": [
+   "ADVANT19",
+   "ADVANT23",
+   "ADVANT80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "AFRM",
+  "name": "Affirm",
+  "desc": "บริการผ่อนชำระ Buy Now Pay Later",
+  "drs": [
+   "AFRM03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AIA",
+  "name": "AIA Group (1299)",
+  "desc": "ประกันชีวิตและสุขภาพรายใหญ่ของเอเชียแปซิฟิก",
+  "drs": [
+   "AIA06",
+   "AIA19",
+   "AIA23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "ALAB",
+  "name": "Astera Labs",
+  "desc": "ชิปเชื่อมต่อความเร็วสูงระหว่าง GPU/CPU สำหรับ AI",
+  "drs": [
+   "ALAB01"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AMAT",
+  "name": "Applied Materials",
+  "desc": "เครื่องจักรสำหรับกระบวนการผลิตชิปครบวงจร",
+  "drs": [
+   "AMAT01",
+   "AMAT19",
+   "AMAT23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AMD",
+  "name": "AMD",
+  "desc": "CPU/GPU ตระกูล Ryzen, Radeon และชิป AI Instinct",
+  "drs": [
+   "AMD03",
+   "AMD23",
+   "AMD80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AMGN",
+  "name": "Amgen",
+  "desc": "ไบโอเทคผลิตยาชีววัตถุระดับโลก",
+  "drs": [
+   "AMGN06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AMZN",
+  "name": "Amazon",
+  "desc": "อีคอมเมิร์ซรายใหญ่สุด + คลาวด์ AWS",
+  "drs": [
+   "AMZN01",
+   "AMZN03",
+   "AMZN06",
+   "AMZN19",
+   "AMZN23",
+   "AMZN80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ANET",
+  "name": "Arista Networks",
+  "desc": "สวิตช์เครือข่ายความเร็วสูงสำหรับ AI Data Center",
+  "drs": [
+   "ANET23",
+   "ANET80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ANTA",
+  "name": "Anta Sports (2020)",
+  "desc": "รองเท้า/อุปกรณ์กีฬาจีน แบรนด์ Anta, Fila",
+  "drs": [
+   "ANTA13",
+   "ANTA23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "APLD",
+  "name": "Applied Digital",
+  "desc": "พัฒนา Data Center สำหรับงานประมวลผล AI",
+  "drs": [
+   "APLD03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "APPL",
+  "name": "AppLovin",
+  "desc": "แพลตฟอร์มโฆษณาบนแอปมือถือขับเคลื่อนด้วย AI (ไม่ใช่ Apple!)",
+  "drs": [
+   "APPL03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ASEMI ETF",
+  "name": "Global X Asia Semiconductor ETF",
+  "desc": "กองทุนหุ้นเซมิคอนดักเตอร์ทั่วเอเชีย",
+  "drs": [
+   "ASEMI23",
+   "ASEMI24"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "ASICS",
+  "name": "Asics (7936)",
+  "desc": "รองเท้าวิ่งญี่ปุ่น เจ้าของ Onitsuka Tiger",
+  "drs": [
+   "ASICS23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "ASML",
+  "name": "ASML",
+  "desc": "ผู้ผูกขาดเครื่อง EUV lithography สำหรับผลิตชิปขั้นสูง",
+  "drs": [
+   "ASML01"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "ASTS",
+  "name": "AST SpaceMobile",
+  "desc": "ดาวเทียม LEO ส่งสัญญาณมือถือตรงจากอวกาศ",
+  "drs": [
+   "ASTS01",
+   "ASTS03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AVGO",
+  "name": "Broadcom",
+  "desc": "ชิปเครือข่าย, custom AI chip และซอฟต์แวร์ VMware",
+  "drs": [
+   "AVGO23",
+   "AVGO80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "AXP",
+  "name": "American Express",
+  "desc": "บัตรเครดิตและบริการชำระเงินระดับพรีเมียม",
+  "drs": [
+   "AXP06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BABA",
+  "name": "Alibaba (9988)",
+  "desc": "อีคอมเมิร์ซ Taobao/Tmall + Alibaba Cloud + AI Qwen",
+  "drs": [
+   "BABA01",
+   "BABA06",
+   "BABA13",
+   "BABA19",
+   "BABA23",
+   "BABA80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "BAC",
+  "name": "Bank of America",
+  "desc": "ธนาคารพาณิชย์รายใหญ่อันดับต้นของสหรัฐฯ",
+  "drs": [
+   "BAC03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BDX",
+  "name": "Becton Dickinson",
+  "desc": "อุปกรณ์การแพทย์และเครื่องมือวินิจฉัยโรค",
+  "drs": [
+   "BDX06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BIDU",
+  "name": "Baidu (9888)",
+  "desc": "เสิร์ชเอนจินจีน + AI Ernie + รถไร้คนขับ Apollo",
+  "drs": [
+   "BIDU01",
+   "BIDU06",
+   "BIDU23",
+   "BIDU80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "BILIBI",
+  "name": "Bilibili (9626)",
+  "desc": "แพลตฟอร์มวิดีโอ/อนิเมะ/เกมของวัยรุ่นจีน",
+  "drs": [
+   "BILIBILI01"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "BIREN",
+  "name": "Biren Technology (6082)",
+  "desc": "ผู้ออกแบบ GPU สำหรับ AI ของจีน",
+  "drs": [
+   "BIREN23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "BKNG",
+  "name": "Booking Holdings",
+  "desc": "จองท่องเที่ยวออนไลน์ Booking.com, Agoda, KAYAK",
+  "drs": [
+   "BKNG03",
+   "BKNG80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BLK",
+  "name": "BlackRock",
+  "desc": "บริษัทจัดการสินทรัพย์ใหญ่สุดในโลก เจ้าของ iShares",
+  "drs": [
+   "BLK06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BOEING",
+  "name": "Boeing",
+  "desc": "ผู้ผลิตเครื่องบินพาณิชย์และยุทโธปกรณ์",
+  "drs": [
+   "BOEING80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BONDAS ETF",
+  "name": "iShares JPM USD Asia Credit Bond ETF",
+  "desc": "กองทุนตราสารหนี้เอเชียสกุล USD",
+  "drs": [
+   "BONDAS19"
+  ],
+  "country": "sg",
+  "type": "etf"
+ },
+ {
+  "symbol": "BONDUS ETF",
+  "name": "Premia US Treasury Floating Rate ETF",
+  "desc": "พันธบัตรรัฐบาลสหรัฐฯ ดอกเบี้ยลอยตัว",
+  "drs": [
+   "BONDUS01"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "BRKB",
+  "name": "Berkshire Hathaway (BRK.B)",
+  "desc": "โฮลดิ้งของวอร์เรน บัฟเฟตต์ ลงทุนหลากอุตสาหกรรม",
+  "drs": [
+   "BRKB23",
+   "BRKB80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "BYDCOM",
+  "name": "BYD (1211)",
+  "desc": "ผู้ผลิตรถ EV และแบตเตอรี่รายใหญ่ของจีน",
+  "drs": [
+   "BYDCOM01",
+   "BYDCOM80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CAM CSI300 ETF",
+  "name": "ChinaAMC CSI 300 ETF (3188)",
+  "desc": "หุ้นจีน A-Shares ขนาดใหญ่ 300 ตัว",
+  "drs": [
+   "CN01"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CAM HSTECH ETF",
+  "name": "ChinaAMC HS Tech ETF (3088)",
+  "desc": "หุ้นเทคจีน 30 ตัวในฮ่องกง",
+  "drs": [
+   "CNTECH01"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CAM JAPAN HDG ETF",
+  "name": "ChinaAMC MSCI Japan Hedged ETF",
+  "desc": "หุ้นญี่ปุ่นป้องกันความเสี่ยงค่าเงินเป็น USD",
+  "drs": [
+   "JAPAN13"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "CAM MSCIINDIA ETF",
+  "name": "ChinaAMC MSCI India ETF",
+  "desc": "หุ้นอินเดียขนาดใหญ่-กลางตาม MSCI India",
+  "drs": [
+   "INDIA01"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CAM NASDAQ 100 ETF",
+  "name": "ChinaAMC Nasdaq 100 ETF (3086)",
+  "desc": "ดัชนี Nasdaq-100 ผ่านกองทุนฮ่องกง",
+  "drs": [
+   "NDX01"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "CAMBRI",
+  "name": "Cambricon (688256)",
+  "desc": "ชิป AI สัญชาติจีนสำหรับคลาวด์และ Data Center",
+  "drs": [
+   "CAMBRI80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CAT",
+  "name": "Caterpillar",
+  "desc": "เครื่องจักรกลก่อสร้างและเหมืองแร่รายใหญ่ของโลก",
+  "drs": [
+   "CAT19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CATL",
+  "name": "CATL (3750)",
+  "desc": "ผู้ผลิตแบตเตอรี่ EV ใหญ่ที่สุดในโลก",
+  "drs": [
+   "CATL01",
+   "CATL23",
+   "CATL80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CCJ",
+  "name": "Cameco",
+  "desc": "เหมืองยูเรเนียมสำหรับโรงไฟฟ้านิวเคลียร์",
+  "drs": [
+   "CCJ23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CDNS",
+  "name": "Cadence Design",
+  "desc": "ซอฟต์แวร์ EDA สำหรับออกแบบชิป",
+  "drs": [
+   "CDNS23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CEG",
+  "name": "Constellation Energy",
+  "desc": "โรงไฟฟ้านิวเคลียร์ป้อนพลังงานให้ Data Center",
+  "drs": [
+   "CEG23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CHHONGQ",
+  "name": "China Hongqiao (1378)",
+  "desc": "ผู้ผลิตอะลูมิเนียมรายใหญ่ที่สุดของโลก",
+  "drs": [
+   "CHHONGQ19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CHMOBILE",
+  "name": "China Mobile (941)",
+  "desc": "เครือข่ายมือถือ/5G ใหญ่สุดของจีน",
+  "drs": [
+   "CHMOBILE19",
+   "CHMOBILE23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CHNXT50 ETF",
+  "name": "Invesco ChiNext 50 ETF",
+  "desc": "หุ้นนวัตกรรม 50 ตัวในกระดาน ChiNext",
+  "drs": [
+   "CHNXT5023"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CMBANK",
+  "name": "China Merchants Bank (3968)",
+  "desc": "ธนาคารจีนเด่นด้าน retail banking",
+  "drs": [
+   "CMBANK23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CME",
+  "name": "CME Group",
+  "desc": "ตลาดซื้อขายอนุพันธ์ใหญ่สุดของโลก",
+  "drs": [
+   "CME03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CN CSI300 ETF",
+  "name": "ChinaAMC CSI 300 ETF (510330)",
+  "desc": "ดัชนี CSI 300 ผ่านกองทุนจีนแผ่นดินใหญ่",
+  "drs": [
+   "CN23"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CNBIO ETF",
+  "name": "Global X China Biotech ETF",
+  "desc": "หุ้นไบโอเทคจีน",
+  "drs": [
+   "CNBIO24"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CNEV ETF",
+  "name": "Global X China EV & Battery ETF",
+  "desc": "หุ้นรถไฟฟ้าและแบตเตอรี่จีน",
+  "drs": [
+   "CNEV24"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CNRE",
+  "name": "China Northern Rare Earth (600111)",
+  "desc": "ผู้ผลิตแร่หายาก (Rare Earth) รายใหญ่ของจีน",
+  "drs": [
+   "CNRE80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "CNROBOAI ETF",
+  "name": "Global X China Robotics & AI ETF",
+  "desc": "หุ้นหุ่นยนต์และ AI จีน",
+  "drs": [
+   "CNROBOAI23"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CNSEMI ETF",
+  "name": "Global X China Semiconductor ETF",
+  "desc": "หุ้นห่วงโซ่เซมิคอนดักเตอร์จีน",
+  "drs": [
+   "CNSEMI23"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "CNSTAR50 ETF",
+  "name": "ChinaAMC STAR 50 ETF",
+  "desc": "หุ้นเทค 50 ตัวในกระดาน STAR Market",
+  "drs": [
+   "CNSTAR5023"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "COHR",
+  "name": "Coherent",
+  "desc": "อุปกรณ์ออปติกและเลเซอร์สำหรับ Data Center",
+  "drs": [
+   "COHR23",
+   "COHR80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "COIN",
+  "name": "Coinbase",
+  "desc": "ตลาดซื้อขายคริปโตรายใหญ่ของสหรัฐฯ",
+  "drs": [
+   "COIN01",
+   "COIN23",
+   "COIN80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "COSTCO",
+  "name": "Costco",
+  "desc": "ค้าปลีกระบบสมาชิกขายส่งราคาถูก",
+  "drs": [
+   "COSTCO19",
+   "COSTCO80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CRDO",
+  "name": "Credo Technology",
+  "desc": "ชิปและสายเชื่อมต่อข้อมูลความเร็วสูงสำหรับ AI",
+  "drs": [
+   "CRDO23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CRM",
+  "name": "Salesforce",
+  "desc": "ซอฟต์แวร์ CRM บนคลาวด์ + AI Agentforce",
+  "drs": [
+   "CRM01",
+   "CRM06",
+   "CRM80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CRSP",
+  "name": "CRISPR Therapeutics",
+  "desc": "เทคโนโลยีตัดต่อยีนรักษาโรคพันธุกรรม",
+  "drs": [
+   "CRSP03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CRWD",
+  "name": "CrowdStrike",
+  "desc": "ความปลอดภัยไซเบอร์บนคลาวด์ แพลตฟอร์ม Falcon",
+  "drs": [
+   "CRWD06",
+   "CRWD80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CRWV",
+  "name": "CoreWeave",
+  "desc": "ผู้ให้เช่า Cloud GPU สำหรับงาน AI",
+  "drs": [
+   "CRWV03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CSCO",
+  "name": "Cisco",
+  "desc": "อุปกรณ์เครือข่ายและซอฟต์แวร์องค์กร",
+  "drs": [
+   "CSCO06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "CYPC",
+  "name": "China Yangtze Power (600900)",
+  "desc": "ไฟฟ้าพลังน้ำใหญ่สุดของโลก (เขื่อน Three Gorges)",
+  "drs": [
+   "CYPC80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "DASH",
+  "name": "DoorDash",
+  "desc": "เดลิเวอรีอาหารรายใหญ่ของสหรัฐฯ",
+  "drs": [
+   "DASH03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "DBS",
+  "name": "DBS Group",
+  "desc": "ธนาคารใหญ่สุดของอาเซียน",
+  "drs": [
+   "DBS19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "DCVFMVN DIAMOND ETF",
+  "name": "DCVFM VNDiamond ETF",
+  "desc": "หุ้นเวียดนามกลุ่มเต็มเพดานต่างชาติ (Diamond)",
+  "drs": [
+   "FUEVFVND01"
+  ],
+  "country": "vn",
+  "type": "etf"
+ },
+ {
+  "symbol": "DCVFMVN30 ETF",
+  "name": "DCVFM VN30 ETF",
+  "desc": "หุ้นเวียดนามขนาดใหญ่ 30 ตัว",
+  "drs": [
+   "E1VFVN3001"
+  ],
+  "country": "vn",
+  "type": "etf"
+ },
+ {
+  "symbol": "DDOG",
+  "name": "Datadog",
+  "desc": "แพลตฟอร์ม monitoring และ observability บนคลาวด์",
+  "drs": [
+   "DDOG19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "DEAM ETF",
+  "name": "Invesco MDAX UCITS ETF",
+  "desc": "หุ้นเยอรมนีขนาดกลาง 50 ตัวตามดัชนี MDAX",
+  "drs": [
+   "DEAM19"
+  ],
+  "country": "eu",
+  "type": "etf"
+ },
+ {
+  "symbol": "DELL",
+  "name": "Dell Technologies",
+  "desc": "คอมพิวเตอร์และเซิร์ฟเวอร์ AI",
+  "drs": [
+   "DELL19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "DISCO",
+  "name": "Disco Corp (6146)",
+  "desc": "เครื่องตัด/เจียรเวเฟอร์ชิปความแม่นยำสูง",
+  "drs": [
+   "DISCO24",
+   "DISCO80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "DISNEY",
+  "name": "Walt Disney",
+  "desc": "สวนสนุก สตรีมมิ่ง Disney+ และคอนเทนต์",
+  "drs": [
+   "DISNEY19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "DOLLARG",
+  "name": "Dollar General",
+  "desc": "เชนร้านค้าปลีกราคาประหยัดในสหรัฐฯ",
+  "drs": [
+   "DOLLARG80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "DUOL",
+  "name": "Duolingo",
+  "desc": "แอปเรียนภาษายอดนิยม",
+  "drs": [
+   "DUOL06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "EOSE",
+  "name": "Eos Energy",
+  "desc": "แบตเตอรี่ zinc สำหรับกักเก็บพลังงานระดับกริด",
+  "drs": [
+   "EOSE03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ESTEE",
+  "name": "Estée Lauder",
+  "desc": "เครื่องสำอางหรู La Mer, Jo Malone, M·A·C",
+  "drs": [
+   "ESTEE80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ETN",
+  "name": "Eaton",
+  "desc": "ระบบจัดการพลังงานไฟฟ้าสำหรับ Data Center และอาคาร",
+  "drs": [
+   "ETN23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "EXPE",
+  "name": "Expedia",
+  "desc": "แพลตฟอร์มจองท่องเที่ยว Expedia, Hotels.com",
+  "drs": [
+   "EXPE06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "FABRINET",
+  "name": "Fabrinet",
+  "desc": "รับจ้างผลิตชิ้นส่วนออปติกความแม่นยำสูง (โรงงานหลักอยู่ไทย)",
+  "drs": [
+   "FABRINET23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "FANUC",
+  "name": "Fanuc (6954)",
+  "desc": "หุ่นยนต์แขนกลอุตสาหกรรมรายใหญ่ของโลก",
+  "drs": [
+   "FANUC23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "FCX",
+  "name": "Freeport-McMoRan",
+  "desc": "เหมืองทองแดงและทองคำระดับโลก",
+  "drs": [
+   "FCX23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "FERRARI",
+  "name": "Ferrari (RACE)",
+  "desc": "ซูเปอร์คาร์หรูและทีมแข่ง F1",
+  "drs": [
+   "FERRARI80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "FPTVN",
+  "name": "FPT Corporation",
+  "desc": "บริษัทไอที/ซอฟต์แวร์ใหญ่สุดของเวียดนาม",
+  "drs": [
+   "FPTVN11",
+   "FPTVN19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "FWONK",
+  "name": "Liberty Media – Formula One",
+  "desc": "เจ้าของลิขสิทธิ์การแข่งขัน Formula 1",
+  "drs": [
+   "FWONK06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "GAC",
+  "name": "Guangzhou Auto (2238)",
+  "desc": "ผู้ผลิตรถยนต์จีน แบรนด์ Aion, Trumpchi",
+  "drs": [
+   "GAC03"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GANFENG",
+  "name": "Ganfeng Lithium (1772)",
+  "desc": "ผู้ผลิตลิเธียมครบวงจรตั้งแต่เหมืองถึงแบตเตอรี่",
+  "drs": [
+   "GANFENG23",
+   "GANFENG80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GASVN",
+  "name": "PetroVietnam Gas",
+  "desc": "ก๊าซธรรมชาติรายใหญ่ของเวียดนาม",
+  "drs": [
+   "GASVN11"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GDS",
+  "name": "GDS Holdings (9698)",
+  "desc": "ผู้ให้บริการ Data Center รายใหญ่ของจีน",
+  "drs": [
+   "GDS23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GEELY",
+  "name": "Geely Auto (175)",
+  "desc": "ผู้ผลิตรถยนต์จีน เจ้าของ Volvo, Zeekr",
+  "drs": [
+   "GEELY06",
+   "GEELY80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GEV",
+  "name": "GE Vernova",
+  "desc": "กังหันก๊าซ/ลม และระบบไฟฟ้า แยกตัวจาก GE",
+  "drs": [
+   "GEV23",
+   "GEV80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "GIGA",
+  "name": "GigaDevice (3986)",
+  "desc": "ชิปหน่วยความจำแฟลชและ MCU ของจีน",
+  "drs": [
+   "GIGA23",
+   "GIGA80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "GLOBALX INBLU ETF",
+  "name": "Global X Innovative Bluechip Top 10 ETF",
+  "desc": "หุ้นบลูชิพนวัตกรรม 10 ตัวระดับโลก",
+  "drs": [
+   "WORLD03"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "GLOBALX JAPAN ETF",
+  "name": "Global X Japan Global Leaders ETF",
+  "desc": "หุ้นญี่ปุ่นขนาดใหญ่ระดับโลก",
+  "drs": [
+   "JAP03"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "GLW",
+  "name": "Corning",
+  "desc": "กระจก Gorilla Glass และไฟเบอร์ออปติก",
+  "drs": [
+   "GLW80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "GOLDM ETF",
+  "name": "SPDR Gold MiniShares (GLDM)",
+  "desc": "กองทุนทองคำแท่ง ค่าธรรมเนียมต่ำ",
+  "drs": [
+   "GOLDM01"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "GOOG",
+  "name": "Alphabet Class C",
+  "desc": "Google Search, YouTube, Gemini AI (หุ้นไม่มีสิทธิ์โหวต)",
+  "drs": [
+   "GOOG06",
+   "GOOG23",
+   "GOOG80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "GOOGL",
+  "name": "Alphabet Class A",
+  "desc": "Google Search, YouTube, Gemini AI (หุ้นมีสิทธิ์โหวต)",
+  "drs": [
+   "GOOGL01",
+   "GOOGL03",
+   "GOOGL19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "GRAB",
+  "name": "Grab Holdings",
+  "desc": "ซูเปอร์แอปเรียกรถ/ส่งอาหาร/การเงินของอาเซียน",
+  "drs": [
+   "GRAB80"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "GSEMI ETF",
+  "name": "Global X Semiconductor ETF (2243)",
+  "desc": "หุ้นเซมิคอนดักเตอร์ระดับโลก จดทะเบียนโตเกียว",
+  "drs": [
+   "GSEMI24"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "GSUS",
+  "name": "Goldman Sachs",
+  "desc": "วาณิชธนกิจและบริหารความมั่งคั่งระดับโลก",
+  "drs": [
+   "GSUS06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "HAIERS",
+  "name": "Haier Smart Home (6690)",
+  "desc": "เครื่องใช้ไฟฟ้าและสมาร์ทโฮมรายใหญ่ของจีน",
+  "drs": [
+   "HAIERS19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HANSOH",
+  "name": "Hansoh Pharma (3692)",
+  "desc": "ยารักษามะเร็งและโรคเรื้อรังของจีน",
+  "drs": [
+   "HANSOH19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HERMES",
+  "name": "Hermès (RMS)",
+  "desc": "แบรนด์หรูฝรั่งเศส กระเป๋า Birkin/Kelly",
+  "drs": [
+   "HERMES80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "HIMS",
+  "name": "Hims & Hers",
+  "desc": "Telehealth ปรึกษาแพทย์และส่งยาออนไลน์",
+  "drs": [
+   "HIMS03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "HITACHI",
+  "name": "Hitachi (6501)",
+  "desc": "โครงข่ายไฟฟ้า ระบบราง และโซลูชันดิจิทัล",
+  "drs": [
+   "HITACHI24"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "HKEX",
+  "name": "HKEX (388)",
+  "desc": "ผู้บริหารตลาดหลักทรัพย์ฮ่องกง",
+  "drs": [
+   "HKEX23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HONDA",
+  "name": "Honda (7267)",
+  "desc": "รถยนต์และมอเตอร์ไซค์รายใหญ่ของญี่ปุ่น",
+  "drs": [
+   "HONDA19"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "HOOD",
+  "name": "Robinhood",
+  "desc": "แอปเทรดหุ้น/คริปโตค่าคอมมิชชันศูนย์",
+  "drs": [
+   "HOOD03",
+   "HOOD06",
+   "HOOD80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "HORIZON",
+  "name": "Horizon Robotics (9660)",
+  "desc": "ชิป AI สำหรับระบบช่วยขับขี่อัจฉริยะ",
+  "drs": [
+   "HORIZON23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HPG",
+  "name": "Hoa Phat Group",
+  "desc": "ผู้ผลิตเหล็กรายใหญ่ของเวียดนาม",
+  "drs": [
+   "HPG19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HS JAPAN TPX100 ETF",
+  "name": "Hang Seng Japan TOPIX 100 ETF",
+  "desc": "หุ้นญี่ปุ่นใหญ่สุด 100 ตัว",
+  "drs": [
+   "JAPAN10001"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "HSCEI ETF",
+  "name": "Hang Seng China Enterprises ETF (2828)",
+  "desc": "หุ้นจีนขนาดใหญ่ 50 ตัวในฮ่องกง",
+  "drs": [
+   "HKCE01"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "HSHD ETF",
+  "name": "Global X HS High Dividend Yield ETF",
+  "desc": "หุ้นปันผลสูงในฮ่องกง",
+  "drs": [
+   "HSHD23"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "HSTECH ETF",
+  "name": "Hang Seng Tech ETF (3032)",
+  "desc": "หุ้นเทคจีน 30 ตัว ตามดัชนี HS Tech",
+  "drs": [
+   "HKTECH13"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "HUAHONG",
+  "name": "Hua Hong Semiconductor (1347)",
+  "desc": "โรงงานรับผลิตชิป (foundry) เฉพาะทางของจีน",
+  "drs": [
+   "HUAHONG23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "HYGON",
+  "name": "Hygon (688041)",
+  "desc": "CPU/DCU สัญชาติจีนสำหรับเซิร์ฟเวอร์และ AI",
+  "drs": [
+   "HYGON80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "IBM",
+  "name": "IBM",
+  "desc": "คลาวด์ไฮบริด ซอฟต์แวร์องค์กร และควอนตัม",
+  "drs": [
+   "IBM06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ICBC",
+  "name": "ICBC (1398)",
+  "desc": "ธนาคารใหญ่ที่สุดในโลกตามสินทรัพย์",
+  "drs": [
+   "ICBC06",
+   "ICBC19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "IFLYTEK",
+  "name": "iFlytek (002230)",
+  "desc": "AI ด้านเสียงพูดและภาษาของจีน",
+  "drs": [
+   "IFLYTEK80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "INTEL",
+  "name": "Intel",
+  "desc": "ผู้ผลิต CPU x86 และธุรกิจ foundry",
+  "drs": [
+   "INTEL01",
+   "INTEL03",
+   "INTEL19",
+   "INTEL23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "INVESCO DB OIL ETF",
+  "name": "Invesco DB Oil Fund (DBO)",
+  "desc": "สัญญาล่วงหน้าน้ำมันดิบ WTI",
+  "drs": [
+   "DBO80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "INVESCO NDAQ100 ETF",
+  "name": "Invesco Nasdaq 100 ETF (QQQM)",
+  "desc": "ดัชนี Nasdaq-100 ค่าธรรมเนียมต่ำ (ไม่ hedge ค่าเงิน)",
+  "drs": [
+   "QQQM19"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "IONQ",
+  "name": "IonQ",
+  "desc": "คอมพิวเตอร์ควอนตัมแบบ trapped-ion",
+  "drs": [
+   "IONQ03",
+   "IONQ23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "IS INDIA CLIMATE ETF",
+  "name": "iShares MSCI India Climate Transition ETF",
+  "desc": "หุ้นอินเดียธีมพลังงานสะอาด",
+  "drs": [
+   "INDIAESG19"
+  ],
+  "country": "sg",
+  "type": "etf"
+ },
+ {
+  "symbol": "ISRG",
+  "name": "Intuitive Surgical",
+  "desc": "หุ่นยนต์ช่วยผ่าตัด da Vinci",
+  "drs": [
+   "ISRG01",
+   "ISRG06",
+   "ISRG19",
+   "ISRG80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ITOCHU",
+  "name": "Itochu (8001)",
+  "desc": "เทรดดิ้งคอมพานียักษ์ใหญ่ญี่ปุ่น (บัฟเฟตต์ถือหุ้น)",
+  "drs": [
+   "ITOCHU19"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "JD",
+  "name": "JD.com (9618)",
+  "desc": "อีคอมเมิร์ซ+โลจิสติกส์ครบวงจรของจีน",
+  "drs": [
+   "JD80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "JDHEAL",
+  "name": "JD Health (6618)",
+  "desc": "ร้านยาและสุขภาพออนไลน์เครือ JD",
+  "drs": [
+   "JDHEAL19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "JEPI ETF",
+  "name": "JPMorgan Equity Premium Income ETF",
+  "desc": "หุ้นสหรัฐฯ + ขาย call option เน้นกระแสเงินสด",
+  "drs": [
+   "JEPI19"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "JGRO ETF",
+  "name": "JPMorgan Active Growth ETF",
+  "desc": "หุ้นเติบโตสหรัฐฯ บริหารเชิงรุก",
+  "drs": [
+   "JGRO19"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "JLMAG",
+  "name": "JL MAG Rare-Earth (6680)",
+  "desc": "แม่เหล็กถาวร NdFeB สำหรับ EV และหุ่นยนต์",
+  "drs": [
+   "JLMAG80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "JNJ",
+  "name": "Johnson & Johnson",
+  "desc": "ยาและอุปกรณ์การแพทย์ระดับโลก",
+  "drs": [
+   "JNJ03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "JPANIME ETF",
+  "name": "Global X Japan Games & Animation ETF",
+  "desc": "หุ้นเกมและอนิเมะญี่ปุ่น",
+  "drs": [
+   "JPANIME24"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "JPMUS",
+  "name": "JPMorgan Chase",
+  "desc": "ธนาคารใหญ่ที่สุดของสหรัฐฯ",
+  "drs": [
+   "JPMUS06",
+   "JPMUS19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "JPROBOAI ETF",
+  "name": "Global X Japan Robotics & AI ETF",
+  "desc": "หุ้นหุ่นยนต์และระบบอัตโนมัติญี่ปุ่น",
+  "drs": [
+   "JPROBOAI24"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "JPSEMI ETF",
+  "name": "Global X Japan Semiconductor ETF",
+  "desc": "หุ้นห่วงโซ่เซมิคอนดักเตอร์ญี่ปุ่น",
+  "drs": [
+   "JPSEMI24"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "JTEK ETF",
+  "name": "JPMorgan US Tech Leaders ETF",
+  "desc": "หุ้นผู้นำเทคโนโลยีสหรัฐฯ",
+  "drs": [
+   "JTEK19"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "KEYENCE",
+  "name": "Keyence (6861)",
+  "desc": "เซนเซอร์และระบบตรวจวัดโรงงานอัตโนมัติ",
+  "drs": [
+   "KEYENCE23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "KGI TAIWAN AI 50 ETF",
+  "name": "KGI Taiwan AI 50 ETF",
+  "desc": "หุ้น AI/เทคไต้หวัน 50 ตัว",
+  "drs": [
+   "TAIWANAI13"
+  ],
+  "country": "tw",
+  "type": "etf"
+ },
+ {
+  "symbol": "KGI TAIWAN HD 30 ETF",
+  "name": "KGI Taiwan High Dividend 30 ETF",
+  "desc": "หุ้นปันผลสูงไต้หวัน 30 ตัว",
+  "drs": [
+   "TAIWANHD13"
+  ],
+  "country": "tw",
+  "type": "etf"
+ },
+ {
+  "symbol": "KIM VN DIAMOND ETF",
+  "name": "KIM Growth VN Diamond ETF",
+  "desc": "หุ้นเวียดนามกลุ่ม Diamond",
+  "drs": [
+   "VDIAMOND11"
+  ],
+  "country": "vn",
+  "type": "etf"
+ },
+ {
+  "symbol": "KIM VN30 ETF",
+  "name": "KIM Growth VN30 ETF",
+  "desc": "หุ้นเวียดนามขนาดใหญ่ 30 ตัว",
+  "drs": [
+   "V3011"
+  ],
+  "country": "vn",
+  "type": "etf"
+ },
+ {
+  "symbol": "KINGSOFT",
+  "name": "Kingsoft (3888)",
+  "desc": "เจ้าของ WPS Office และเกมออนไลน์",
+  "drs": [
+   "KINGSOFT23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "KIOXIA",
+  "name": "Kioxia (285A)",
+  "desc": "ผู้ผลิต NAND Flash รายใหญ่ (อดีต Toshiba Memory)",
+  "drs": [
+   "KIOXIA23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "KLAC",
+  "name": "KLA Corporation",
+  "desc": "เครื่องตรวจสอบคุณภาพในกระบวนการผลิตชิป",
+  "drs": [
+   "KLAC01",
+   "KLAC19",
+   "KLAC23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "KO",
+  "name": "Coca-Cola",
+  "desc": "เครื่องดื่มระดับโลก โค้ก แฟนต้า สไปรท์",
+  "drs": [
+   "KO80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "KONAMI",
+  "name": "Konami (9766)",
+  "desc": "เกม eFootball, Metal Gear และการ์ด Yu-Gi-Oh!",
+  "drs": [
+   "KONAMI24"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "KUAISH",
+  "name": "Kuaishou (1024)",
+  "desc": "แพลตฟอร์มวิดีโอสั้นคู่แข่ง Douyin",
+  "drs": [
+   "KUAISH01",
+   "KUAISH06",
+   "KUAISH23",
+   "KUAISH80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "LAOPU",
+  "name": "Laopu Gold (6181)",
+  "desc": "เครื่องประดับทองคำสไตล์จีนระดับพรีเมียม",
+  "drs": [
+   "LPGOLD13"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "LENOVO",
+  "name": "Lenovo (992)",
+  "desc": "ผู้ผลิตพีซีรายใหญ่ที่สุดของโลก",
+  "drs": [
+   "LENOVO13"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "LITE",
+  "name": "Lumentum",
+  "desc": "อุปกรณ์ออปติกสำหรับคลาวด์และ Data Center",
+  "drs": [
+   "LITE01",
+   "LITE23",
+   "LITE80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "LLY",
+  "name": "Eli Lilly",
+  "desc": "ยาลดน้ำหนัก/เบาหวาน Zepbound, Mounjaro",
+  "drs": [
+   "LLY23",
+   "LLY80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "LOREAL",
+  "name": "L'Oréal",
+  "desc": "เครื่องสำอางใหญ่สุดของโลก Maybelline, Kiehl's",
+  "drs": [
+   "LOREAL80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "LRCX",
+  "name": "Lam Research",
+  "desc": "เครื่องจักร etch/deposition สำหรับผลิตชิป",
+  "drs": [
+   "LRCX01",
+   "LRCX19",
+   "LRCX23",
+   "LRCX80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "LULU",
+  "name": "Lululemon",
+  "desc": "เสื้อผ้ากีฬาโยคะระดับพรีเมียม",
+  "drs": [
+   "LULU06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "LVMH",
+  "name": "LVMH (MC)",
+  "desc": "อาณาจักรแบรนด์หรู Louis Vuitton, Dior, Hennessy",
+  "drs": [
+   "LVMH01"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "MA",
+  "name": "Mastercard",
+  "desc": "เครือข่ายชำระเงินระดับโลก",
+  "drs": [
+   "MA80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MAOGEP",
+  "name": "Mao Geping (1318)",
+  "desc": "เครื่องสำอางพรีเมียมสัญชาติจีน",
+  "drs": [
+   "MAOGEP80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MEITUAN",
+  "name": "Meituan (3690)",
+  "desc": "ซูเปอร์แอปส่งอาหาร/ไลฟ์สไตล์ของจีน",
+  "drs": [
+   "MEITUAN19",
+   "MEITUAN23",
+   "MEITUAN80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MELI",
+  "name": "MercadoLibre",
+  "desc": "อีคอมเมิร์ซ+ฟินเทคใหญ่สุดของลาตินอเมริกา",
+  "drs": [
+   "MELI06",
+   "MELI23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "META",
+  "name": "Meta Platforms",
+  "desc": "Facebook, Instagram, WhatsApp และ AI Llama",
+  "drs": [
+   "META01",
+   "META06",
+   "META23",
+   "META80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MICRON",
+  "name": "Micron (MU)",
+  "desc": "หน่วยความจำ DRAM/HBM สำหรับ AI",
+  "drs": [
+   "MICRON01",
+   "MICRON03",
+   "MICRON19",
+   "MICRON23",
+   "MICRON80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MIDEA",
+  "name": "Midea (0300)",
+  "desc": "เครื่องใช้ไฟฟ้ารายใหญ่ เจ้าของหุ่นยนต์ KUKA",
+  "drs": [
+   "MIDEA80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MITSU",
+  "name": "Mitsubishi Heavy (7011)",
+  "desc": "เครื่องจักรหนัก โรงไฟฟ้า และกลาโหมญี่ปุ่น",
+  "drs": [
+   "MITSU19"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "MIXUE",
+  "name": "Mixue (2097)",
+  "desc": "แฟรนไชส์ชานม/ไอศกรีมสาขามากสุดในโลก",
+  "drs": [
+   "MIXUE80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MNSO",
+  "name": "Miniso (9896)",
+  "desc": "ร้านสินค้าไลฟ์สไตล์ราคาประหยัด",
+  "drs": [
+   "MNSO80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MNST",
+  "name": "Monster Beverage",
+  "desc": "เครื่องดื่มชูกำลัง Monster Energy",
+  "drs": [
+   "MNST06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MONTAGE",
+  "name": "Montage Technology (6809)",
+  "desc": "ชิป interface หน่วยความจำ DDR5 สำหรับเซิร์ฟเวอร์",
+  "drs": [
+   "MONTAGE80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MOUTAI",
+  "name": "Kweichow Moutai (600519)",
+  "desc": "เหล้าขาวพรีเมียมมูลค่าสูงสุดของจีน",
+  "drs": [
+   "MOUTAI80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MP",
+  "name": "MP Materials",
+  "desc": "เหมืองแร่หายากแห่งเดียวของสหรัฐฯ",
+  "drs": [
+   "MP23",
+   "MP80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MPWR",
+  "name": "Monolithic Power",
+  "desc": "ชิปจัดการพลังงานสำหรับเซิร์ฟเวอร์ AI",
+  "drs": [
+   "MPWR23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MRVL",
+  "name": "Marvell",
+  "desc": "ชิป custom AI และ data infrastructure",
+  "drs": [
+   "MRVL06",
+   "MRVL23",
+   "MRVL80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MS",
+  "name": "Morgan Stanley",
+  "desc": "วาณิชธนกิจและบริหารความมั่งคั่ง",
+  "drs": [
+   "MS06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MSFT",
+  "name": "Microsoft",
+  "desc": "Windows, Office, Azure และผู้ลงทุนใน OpenAI",
+  "drs": [
+   "MSFT01",
+   "MSFT03",
+   "MSFT06",
+   "MSFT19",
+   "MSFT23",
+   "MSFT80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "MSN",
+  "name": "Masan Group",
+  "desc": "อาหารและค้าปลีกรายใหญ่ของเวียดนาม",
+  "drs": [
+   "MSN11",
+   "MSN19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "MUFG",
+  "name": "MUFG (8306)",
+  "desc": "กลุ่มการเงินใหญ่ที่สุดของญี่ปุ่น",
+  "drs": [
+   "MUFG19",
+   "MUFG23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "MWG",
+  "name": "Mobile World (MWG)",
+  "desc": "เชนร้านมือถือ/เครื่องใช้ไฟฟ้าเวียดนาม",
+  "drs": [
+   "MWG11",
+   "MWG19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "NAURA",
+  "name": "Naura Technology (002371)",
+  "desc": "เครื่องจักรผลิตชิปรายใหญ่ของจีน",
+  "drs": [
+   "NAURA23",
+   "NAURA80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "NBIS",
+  "name": "Nebius Group",
+  "desc": "โครงสร้างพื้นฐานคลาวด์สำหรับ AI (อดีต Yandex สายยุโรป)",
+  "drs": [
+   "NBIS01",
+   "NBIS03",
+   "NBIS23",
+   "NBIS80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NDAQ",
+  "name": "Nasdaq Inc.",
+  "desc": "ผู้บริหารตลาด Nasdaq และเจ้าของลิขสิทธิ์ดัชนี",
+  "drs": [
+   "NDAQ06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NEE",
+  "name": "NextEra Energy",
+  "desc": "ผู้ผลิตไฟฟ้าพลังงานหมุนเวียนใหญ่สุดของโลก",
+  "drs": [
+   "NEE80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NEM",
+  "name": "Newmont",
+  "desc": "เหมืองทองคำใหญ่ที่สุดในโลก",
+  "drs": [
+   "NEM06",
+   "NEM23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NET",
+  "name": "Cloudflare",
+  "desc": "เครือข่าย CDN และความปลอดภัยเว็บ",
+  "drs": [
+   "NET03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NFLX",
+  "name": "Netflix",
+  "desc": "สตรีมมิ่งใหญ่สุดของโลก",
+  "drs": [
+   "NFLX06",
+   "NFLX80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NIKE",
+  "name": "Nike",
+  "desc": "รองเท้าและเสื้อผ้ากีฬาระดับโลก",
+  "drs": [
+   "NIKE80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NIKKEI ETF",
+  "name": "NEXT FUNDS Nikkei 225 ETF (1321)",
+  "desc": "ดัชนี Nikkei 225 ญี่ปุ่น",
+  "drs": [
+   "NIKKEI80"
+  ],
+  "country": "jp",
+  "type": "etf"
+ },
+ {
+  "symbol": "NINTENDO",
+  "name": "Nintendo (7974)",
+  "desc": "เกม Mario, Zelda, Pokémon และเครื่อง Switch",
+  "drs": [
+   "NINTENDO19",
+   "NINTENDO23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "NONGFU",
+  "name": "Nongfu Spring (9633)",
+  "desc": "น้ำดื่มบรรจุขวดอันดับหนึ่งของจีน",
+  "drs": [
+   "NONGFU80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "NOVOB",
+  "name": "Novo Nordisk",
+  "desc": "ยาลดน้ำหนัก/เบาหวาน Ozempic, Wegovy",
+  "drs": [
+   "NOVOB80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "NOW",
+  "name": "ServiceNow",
+  "desc": "ซอฟต์แวร์จัดการเวิร์กโฟลว์องค์กร",
+  "drs": [
+   "NOW19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NTES",
+  "name": "NetEase (9999)",
+  "desc": "ค่ายเกมอันดับสองของจีน",
+  "drs": [
+   "NETEASE80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "NVDA",
+  "name": "NVIDIA",
+  "desc": "GPU และแพลตฟอร์ม AI ครองตลาด Data Center",
+  "drs": [
+   "NVDA01",
+   "NVDA03",
+   "NVDA06",
+   "NVDA19",
+   "NVDA23",
+   "NVDA80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "NVTS",
+  "name": "Navitas",
+  "desc": "ชิปพลังงาน GaN/SiC สำหรับชาร์จเจอร์และ EV",
+  "drs": [
+   "NVTS03",
+   "NVTS23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "OKLO",
+  "name": "Oklo",
+  "desc": "เตาปฏิกรณ์นิวเคลียร์ขนาดเล็ก (SMR)",
+  "drs": [
+   "OKLO23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ON",
+  "name": "onsemi",
+  "desc": "ชิปพลังงานและเซนเซอร์ภาพสำหรับยานยนต์",
+  "drs": [
+   "ON23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "ONON",
+  "name": "On Holding",
+  "desc": "รองเท้าวิ่งสวิส On (Roger Federer ร่วมลงทุน)",
+  "drs": [
+   "ONON03"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "ORCL",
+  "name": "Oracle",
+  "desc": "ฐานข้อมูลและคลาวด์ OCI สำหรับ AI",
+  "drs": [
+   "ORCL01",
+   "ORCL06",
+   "ORCL19",
+   "ORCL80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "PANW",
+  "name": "Palo Alto Networks",
+  "desc": "ความปลอดภัยไซเบอร์ครบวงจร",
+  "drs": [
+   "PANW19",
+   "PANW80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "PEP",
+  "name": "PepsiCo",
+  "desc": "เครื่องดื่มและขนม Pepsi, Lay's, Gatorade",
+  "drs": [
+   "PEP80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "PETROCN",
+  "name": "PetroChina (857)",
+  "desc": "น้ำมันและก๊าซรายใหญ่ของจีน",
+  "drs": [
+   "PETROCN80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "PFIZER",
+  "name": "Pfizer",
+  "desc": "ยาและวัคซีนระดับโลก",
+  "drs": [
+   "PFIZER19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "PINGAN",
+  "name": "Ping An (2318)",
+  "desc": "ประกันภัย+การเงิน+เทคโนโลยีครบวงจรของจีน",
+  "drs": [
+   "PINGAN01",
+   "PINGAN80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "PLTR",
+  "name": "Palantir",
+  "desc": "ซอฟต์แวร์วิเคราะห์ข้อมูล AI ภาครัฐและองค์กร",
+  "drs": [
+   "PLTR01",
+   "PLTR03",
+   "PLTR06",
+   "PLTR23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "PNG",
+  "name": "Procter & Gamble",
+  "desc": "สินค้าอุปโภค Pantene, Gillette, Pampers, SK-II",
+  "drs": [
+   "PNG80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "POPMART",
+  "name": "Pop Mart (9992)",
+  "desc": "อาร์ตทอย Labubu, Molly, Dimoo",
+  "drs": [
+   "POPMART23",
+   "POPMART80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "PREMIA STAR50 ETF",
+  "name": "Premia China STAR50 ETF",
+  "desc": "หุ้นเทคจีน 50 ตัวในกระดาน STAR",
+  "drs": [
+   "STAR5001"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "PYPL",
+  "name": "PayPal",
+  "desc": "ชำระเงินออนไลน์ PayPal, Venmo",
+  "drs": [
+   "PYPL06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "QCOM",
+  "name": "Qualcomm",
+  "desc": "ชิป Snapdragon สำหรับสมาร์ทโฟนและรถยนต์",
+  "drs": [
+   "QCOM06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "RBLX",
+  "name": "Roblox",
+  "desc": "แพลตฟอร์มเกมที่ผู้เล่นสร้างเองได้",
+  "drs": [
+   "RBLX06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "REMX ETF",
+  "name": "VanEck Rare Earth ETF",
+  "desc": "หุ้นแร่หายากและโลหะยุทธศาสตร์ทั่วโลก",
+  "drs": [
+   "REMX03"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "RGTI",
+  "name": "Rigetti Computing",
+  "desc": "คอมพิวเตอร์ควอนตัมแบบ superconducting",
+  "drs": [
+   "RGTI03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "RKLB",
+  "name": "Rocket Lab",
+  "desc": "ปล่อยจรวดขนาดเล็กและผลิตยานอวกาศ",
+  "drs": [
+   "RKLB01",
+   "RKLB03",
+   "RKLB23",
+   "RKLB80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "S&P CRUDE OIL ETF",
+  "name": "Global X S&P Crude Oil Futures ETF",
+  "desc": "สัญญาล่วงหน้าน้ำมันดิบ จดทะเบียนฮ่องกง",
+  "drs": [
+   "OIL03",
+   "OIL24"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "SANOFI",
+  "name": "Sanofi",
+  "desc": "ยาและวัคซีนรายใหญ่ของฝรั่งเศส",
+  "drs": [
+   "SANOFI80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "SANRIO",
+  "name": "Sanrio (8136)",
+  "desc": "เจ้าของคาแรกเตอร์ Hello Kitty, Cinnamoroll",
+  "drs": [
+   "SANRIO23",
+   "SANRIO80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SBUX",
+  "name": "Starbucks",
+  "desc": "เชนร้านกาแฟใหญ่สุดของโลก",
+  "drs": [
+   "SBUX80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SCHDER",
+  "name": "Schneider Electric",
+  "desc": "ระบบจัดการพลังงานและออโตเมชันอาคาร/Data Center",
+  "drs": [
+   "SCHDER80"
+  ],
+  "country": "eu",
+  "type": "stock"
+ },
+ {
+  "symbol": "SEAGATE",
+  "name": "Seagate (STX)",
+  "desc": "ฮาร์ดดิสก์ความจุสูงสำหรับ Data Center",
+  "drs": [
+   "SEAGATE23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SEMB",
+  "name": "Sembcorp",
+  "desc": "พลังงานและสาธารณูปโภคของสิงคโปร์",
+  "drs": [
+   "SEMB19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "SENSE",
+  "name": "SenseTime (20)",
+  "desc": "AI ด้านคอมพิวเตอร์วิทัศน์และจดจำใบหน้า",
+  "drs": [
+   "SENSE23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "SGX",
+  "name": "Singapore Exchange",
+  "desc": "ผู้บริหารตลาดหลักทรัพย์สิงคโปร์",
+  "drs": [
+   "SGX19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "SHINCHEM",
+  "name": "Shin-Etsu Chemical (4063)",
+  "desc": "ซิลิคอนเวเฟอร์และเคมีภัณฑ์สำหรับผลิตชิป",
+  "drs": [
+   "SHINCHEM19",
+   "SHINCHEM80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SHOP",
+  "name": "Shopify",
+  "desc": "แพลตฟอร์มสร้างร้านค้าออนไลน์",
+  "drs": [
+   "SHOP03",
+   "SHOP06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SIA",
+  "name": "Singapore Airlines",
+  "desc": "สายการบินแห่งชาติสิงคโปร์",
+  "drs": [
+   "SIA19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "SIL ETF",
+  "name": "Global X Silver Miners ETF",
+  "desc": "หุ้นเหมืองแร่เงินทั่วโลก",
+  "drs": [
+   "SIL03"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SINGTEL",
+  "name": "Singtel",
+  "desc": "โทรคมนาคมรายใหญ่ของสิงคโปร์ (ถือหุ้น AIS)",
+  "drs": [
+   "SINGTEL80"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "SINOBIO",
+  "name": "Sino Biopharm (1177)",
+  "desc": "เภสัชกรรมรายใหญ่ของจีน",
+  "drs": [
+   "SINOBIO19"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "SMCI",
+  "name": "Super Micro",
+  "desc": "เซิร์ฟเวอร์ AI ประกอบตามสั่ง",
+  "drs": [
+   "SMCI03"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SMFG",
+  "name": "Sumitomo Mitsui (8316)",
+  "desc": "กลุ่มธนาคารใหญ่อันดับสองของญี่ปุ่น",
+  "drs": [
+   "SMFG19"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SMIC",
+  "name": "SMIC (981)",
+  "desc": "โรงงานรับผลิตชิป (foundry) ใหญ่สุดของจีน",
+  "drs": [
+   "SMIC01",
+   "SMIC03",
+   "SMIC13",
+   "SMIC23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "SNDK",
+  "name": "SanDisk",
+  "desc": "หน่วยความจำแฟลชและ SSD (แยกจาก Western Digital)",
+  "drs": [
+   "SNDK03",
+   "SNDK23",
+   "SNDK80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SNOW",
+  "name": "Snowflake",
+  "desc": "แพลตฟอร์มคลังข้อมูลบนคลาวด์",
+  "drs": [
+   "SNOW06",
+   "SNOW23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SOFI",
+  "name": "SoFi Technologies",
+  "desc": "ธนาคารดิจิทัลและฟินเทคครบวงจร",
+  "drs": [
+   "SOFI23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SOFTBANK",
+  "name": "SoftBank Group (9984)",
+  "desc": "โฮลดิ้งลงทุนเทค/AI เจ้าของ Arm และ Vision Fund",
+  "drs": [
+   "SOFTBANK23",
+   "SOFTBANK80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SONY",
+  "name": "Sony (6758)",
+  "desc": "PlayStation, เซนเซอร์ภาพ, เพลงและภาพยนตร์",
+  "drs": [
+   "SONY80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SP500HK ETF",
+  "name": "Hang Seng S&P 500 ETF",
+  "desc": "ดัชนี S&P 500 ผ่านกองทุนฮ่องกง",
+  "drs": [
+   "SP50001"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SP500US ETF",
+  "name": "SPDR Portfolio S&P 500 ETF",
+  "desc": "ดัชนี S&P 500 ค่าธรรมเนียมต่ำ",
+  "drs": [
+   "SP500US19",
+   "SP500US80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPACEX",
+  "name": "SpaceX",
+  "desc": "จรวด Falcon/Starship และอินเทอร์เน็ต Starlink (หุ้นนอกตลาด)",
+  "drs": [
+   "SPACEX01",
+   "SPACEX03",
+   "SPACEX06",
+   "SPACEX23",
+   "SPACEX80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SPBOND ETF",
+  "name": "SPDR Portfolio Aggregate Bond ETF",
+  "desc": "ตราสารหนี้คุณภาพสูงทั่วตลาดสหรัฐฯ",
+  "drs": [
+   "SPBOND80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPCOM ETF",
+  "name": "Communication Services SPDR (XLC)",
+  "desc": "หุ้นกลุ่มสื่อสารใน S&P 500",
+  "drs": [
+   "SPCOM80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPDR GOLD HK ETF",
+  "name": "SPDR Gold Trust (2840)",
+  "desc": "ทองคำแท่ง จดทะเบียนฮ่องกง",
+  "drs": [
+   "GOLD03"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPDR GOLD US ETF",
+  "name": "SPDR Gold Shares (GLD)",
+  "desc": "กองทุนทองคำแท่งใหญ่สุดของโลก",
+  "drs": [
+   "GOLDUS03",
+   "GOLDUS19",
+   "GOLDUS80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPDR GOLD SG ETF",
+  "name": "SPDR Gold Shares (GSD)",
+  "desc": "ทองคำแท่ง จดทะเบียนสิงคโปร์",
+  "drs": [
+   "GOLD19"
+  ],
+  "country": "sg",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPENGY ETF",
+  "name": "Energy Select SPDR (XLE)",
+  "desc": "หุ้นกลุ่มพลังงานใน S&P 500",
+  "drs": [
+   "SPENGY80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPFIN ETF",
+  "name": "Financial Select SPDR (XLF)",
+  "desc": "หุ้นกลุ่มการเงินใน S&P 500",
+  "drs": [
+   "SPFIN80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPHLTH ETF",
+  "name": "Health Care Select SPDR (XLV)",
+  "desc": "หุ้นกลุ่มสุขภาพใน S&P 500",
+  "drs": [
+   "SPHLTH80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "SPOT",
+  "name": "Spotify",
+  "desc": "สตรีมมิ่งเพลงและพอดแคสต์ใหญ่สุดของโลก",
+  "drs": [
+   "SPOT06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SPTECH ETF",
+  "name": "Technology Select SPDR (XLK)",
+  "desc": "หุ้นกลุ่มเทคโนโลยีใน S&P 500",
+  "drs": [
+   "SPTECH80"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "STEG",
+  "name": "ST Engineering",
+  "desc": "วิศวกรรมอากาศยานและกลาโหมสิงคโปร์",
+  "drs": [
+   "STEG19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "SUNNY",
+  "name": "Sunny Optical (2382)",
+  "desc": "เลนส์และโมดูลกล้องสมาร์ทโฟน",
+  "drs": [
+   "SUNNY19",
+   "SUNNY80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "SUSHI",
+  "name": "Food & Life (3563)",
+  "desc": "เจ้าของเชนซูชิสายพาน Sushiro",
+  "drs": [
+   "SUSHI23"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "SYM",
+  "name": "Symbotic",
+  "desc": "หุ่นยนต์จัดการคลังสินค้าอัตโนมัติ (Walmart ใช้)",
+  "drs": [
+   "SYM23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "SYNP",
+  "name": "Synopsys",
+  "desc": "ซอฟต์แวร์ EDA ออกแบบชิปอันดับหนึ่ง",
+  "drs": [
+   "SYNP03",
+   "SYNP23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "TEL",
+  "name": "Tokyo Electron (8035)",
+  "desc": "เครื่องจักรผลิตชิปรายใหญ่ของญี่ปุ่น",
+  "drs": [
+   "TEL23",
+   "TEL80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "TENCENT",
+  "name": "Tencent (700)",
+  "desc": "WeChat, เกมใหญ่สุดของโลก และคลาวด์",
+  "drs": [
+   "TENCENT01",
+   "TENCENT06",
+   "TENCENT13",
+   "TENCENT19",
+   "TENCENT23",
+   "TENCENT80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "TER",
+  "name": "Teradyne",
+  "desc": "เครื่องทดสอบชิปและหุ่นยนต์ collaborative",
+  "drs": [
+   "TER01",
+   "TER23",
+   "TER80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "THAIBEV",
+  "name": "Thai Beverage (Y92)",
+  "desc": "ไทยเบฟ — เบียร์ช้าง สุรา (จดทะเบียนสิงคโปร์)",
+  "drs": [
+   "THAIBEV19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "TME",
+  "name": "Tencent Music (1698)",
+  "desc": "สตรีมมิ่งเพลงอันดับหนึ่งของจีน",
+  "drs": [
+   "TME23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "TOYOTA",
+  "name": "Toyota (7203)",
+  "desc": "ผู้ผลิตรถยนต์ขายดีที่สุดในโลก",
+  "drs": [
+   "TOYOTA80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "TRAHK ETF",
+  "name": "Tracker Fund of Hong Kong (2800)",
+  "desc": "ดัชนี Hang Seng ฮ่องกง",
+  "drs": [
+   "HK01",
+   "HK13"
+  ],
+  "country": "cn",
+  "type": "etf"
+ },
+ {
+  "symbol": "TRIPCOM",
+  "name": "Trip.com (9961)",
+  "desc": "จองท่องเที่ยวออนไลน์รายใหญ่ของจีน",
+  "drs": [
+   "TRIPCOM23",
+   "TRIPCOM80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "TRVUS",
+  "name": "Travelers",
+  "desc": "ประกันภัยทรัพย์สินรายใหญ่ (อยู่ใน Dow Jones)",
+  "drs": [
+   "TRVUS06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "TSEMI",
+  "name": "Tower Semiconductor",
+  "desc": "โรงงานรับผลิตชิปแอนะล็อกเฉพาะทาง",
+  "drs": [
+   "TSEMI23"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "TSLA",
+  "name": "Tesla",
+  "desc": "รถ EV, ระบบขับอัตโนมัติ FSD และหุ่นยนต์ Optimus",
+  "drs": [
+   "TSLA01",
+   "TSLA03",
+   "TSLA23",
+   "TSLA80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "UBER",
+  "name": "Uber",
+  "desc": "เรียกรถและส่งอาหารระดับโลก",
+  "drs": [
+   "UBER06"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "UBTECH",
+  "name": "UBTech (9880)",
+  "desc": "หุ่นยนต์ humanoid ของจีน",
+  "drs": [
+   "UBTECH23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "UNH",
+  "name": "UnitedHealth",
+  "desc": "ประกันสุขภาพใหญ่สุดของสหรัฐฯ",
+  "drs": [
+   "UNH19"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "UNIQLO",
+  "name": "Fast Retailing (9983)",
+  "desc": "เจ้าของแบรนด์ Uniqlo และ GU",
+  "drs": [
+   "UNIQLO80"
+  ],
+  "country": "jp",
+  "type": "stock"
+ },
+ {
+  "symbol": "UOB",
+  "name": "United Overseas Bank",
+  "desc": "ธนาคารรายใหญ่ของสิงคโปร์",
+  "drs": [
+   "UOB19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "USTR ETF",
+  "name": "Global X US Treasury 3-5 Year ETF",
+  "desc": "พันธบัตรรัฐบาลสหรัฐฯ อายุ 3-5 ปี",
+  "drs": [
+   "USTR24"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "VCB",
+  "name": "Vietcombank",
+  "desc": "ธนาคารมูลค่าสูงสุดของเวียดนาม",
+  "drs": [
+   "VCB11",
+   "VCB19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "VENTURE",
+  "name": "Venture Corp",
+  "desc": "รับผลิตอิเล็กทรอนิกส์ความแม่นยำสูง",
+  "drs": [
+   "VENTURE19"
+  ],
+  "country": "sg",
+  "type": "stock"
+ },
+ {
+  "symbol": "VGT",
+  "name": "Victory Giant Tech (2476)",
+  "desc": "แผงวงจร PCB ขั้นสูงสำหรับ AI",
+  "drs": [
+   "VGT80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "VHM",
+  "name": "Vinhomes",
+  "desc": "อสังหาริมทรัพย์รายใหญ่ของเวียดนาม (เครือ Vingroup)",
+  "drs": [
+   "VHM19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "VICR",
+  "name": "Vicor",
+  "desc": "โมดูลแปลงไฟความหนาแน่นสูงสำหรับชิป AI",
+  "drs": [
+   "VICR80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "VISA",
+  "name": "Visa",
+  "desc": "เครือข่ายชำระเงินใหญ่สุดของโลก",
+  "drs": [
+   "VISA06",
+   "VISA80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "VNFIN LEAD ETF",
+  "name": "SSIAM VNFIN Lead ETF",
+  "desc": "หุ้นกลุ่มการเงินเวียดนาม",
+  "drs": [
+   "VNFIN24"
+  ],
+  "country": "vn",
+  "type": "etf"
+ },
+ {
+  "symbol": "VNM",
+  "name": "Vinamilk",
+  "desc": "ผลิตภัณฑ์นมอันดับหนึ่งของเวียดนาม",
+  "drs": [
+   "VNM19"
+  ],
+  "country": "vn",
+  "type": "stock"
+ },
+ {
+  "symbol": "VRT",
+  "name": "Vertiv",
+  "desc": "ระบบไฟและระบายความร้อนสำหรับ Data Center",
+  "drs": [
+   "VRT01",
+   "VRT23",
+   "VRT80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "VT ETF",
+  "name": "Vanguard Total World ETF (VT)",
+  "desc": "หุ้นทั่วโลกทั้งตลาดพัฒนาแล้วและเกิดใหม่",
+  "drs": [
+   "VT03"
+  ],
+  "country": "us",
+  "type": "etf"
+ },
+ {
+  "symbol": "WMT",
+  "name": "Walmart",
+  "desc": "ค้าปลีกรายได้สูงสุดของโลก",
+  "drs": [
+   "WMT06",
+   "WMT80"
+  ],
+  "country": "us",
+  "type": "stock"
+ },
+ {
+  "symbol": "WORLDA ETF",
+  "name": "Invesco MSCI World UCITS ETF",
+  "desc": "หุ้นประเทศพัฒนาแล้ว 23 ประเทศ",
+  "drs": [
+   "WORLDA01"
+  ],
+  "country": "eu",
+  "type": "etf"
+ },
+ {
+  "symbol": "WUXI",
+  "name": "WuXi Biologics (2269)",
+  "desc": "รับวิจัย/ผลิตยาชีววัตถุ (CDMO) ของจีน",
+  "drs": [
+   "WUXI06",
+   "WUXI13"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "WUXIAT",
+  "name": "WuXi AppTec (2359)",
+  "desc": "รับวิจัยและพัฒนายา (CRO) ให้บริษัทยาทั่วโลก",
+  "drs": [
+   "WUXIAT80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "XIAOMI",
+  "name": "Xiaomi (1810)",
+  "desc": "สมาร์ทโฟน, IoT และรถ EV รุ่น SU7/YU7",
+  "drs": [
+   "XIAOMI01",
+   "XIAOMI13",
+   "XIAOMI19",
+   "XIAOMI23",
+   "XIAOMI80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "XPENG",
+  "name": "XPeng (9868)",
+  "desc": "รถ EV จีนเน้นเทคโนโลยีขับขี่อัจฉริยะ",
+  "drs": [
+   "XPENG03"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "YT TAIWAN50 ETF",
+  "name": "Yuanta Taiwan Top 50 ETF (0050)",
+  "desc": "หุ้นไต้หวันใหญ่สุด 50 ตัว (รวม TSMC)",
+  "drs": [
+   "TAIWAN19"
+  ],
+  "country": "tw",
+  "type": "etf"
+ },
+ {
+  "symbol": "ZAI",
+  "name": "Knowledge Atlas / Zhipu (2513)",
+  "desc": "ผู้พัฒนาโมเดลภาษา AI (GLM) ของจีน",
+  "drs": [
+   "ZAI23"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "ZIJIN",
+  "name": "Zijin Mining (2899)",
+  "desc": "เหมืองทองคำ ทองแดง และลิเธียมของจีน",
+  "drs": [
+   "ZIJIN13",
+   "ZIJIN23",
+   "ZIJIN80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ },
+ {
+  "symbol": "ZJINNO",
+  "name": "Zhongji Innolight (300308)",
+  "desc": "โมดูลรับส่งข้อมูลออปติก 800G สำหรับ AI",
+  "drs": [
+   "ZJINNO80"
+  ],
+  "country": "cn",
+  "type": "stock"
+ }
+]
