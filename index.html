@@ -12,6 +12,7 @@
   --gold:#e8b64c;
   --c01:#4c9fe8; --c03:#a06ee0; --c06:#3fb98a; --c11:#e06e9c;
   --c13:#e0864c; --c19:#d9c24a; --c23:#5ac8d8; --c24:#8a9be0; --c80:#e05c5c;
+  --good:#3fb98a; --bad:#e0645c;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -63,10 +64,42 @@ h1{font-size:26px;font-weight:700;margin:6px 0 2px}
 .udesc{color:var(--dim);font-size:13.5px;margin-top:1px}
 .drs{grid-column:2;display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
 .dr{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;padding:3px 9px;border-radius:6px;
-  background:var(--panel2);border:1px solid var(--line);color:var(--text)}
+  background:var(--panel2);border:1px solid var(--line);color:var(--text);cursor:pointer;transition:all .12s}
+.dr:hover{border-color:var(--gold);background:#252c1f;transform:translateY(-1px)}
 .dr b{font-weight:700}
 .empty{text-align:center;color:var(--faint);padding:60px 0}
 footer{max-width:960px;margin:0 auto;padding:0 20px 40px;color:var(--faint);font-size:12px;line-height:1.7}
+
+.modal-overlay{position:fixed;inset:0;background:rgba(6,9,14,.66);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px}
+.modal-overlay[hidden]{display:none}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:16px;max-width:440px;width:100%;
+  max-height:90vh;overflow-y:auto;padding:22px 22px 18px;position:relative}
+.modal-close{position:absolute;top:14px;right:14px;background:var(--panel2);border:none;color:var(--dim);
+  width:30px;height:30px;border-radius:8px;cursor:pointer;font-size:14px}
+.modal-close:hover{color:var(--text)}
+.modal-drsym{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:20px;color:var(--text);padding-right:30px}
+.modal-issuer{font-size:12.5px;color:var(--dim);margin-top:2px}
+.modal-underlying{font-size:14.5px;font-weight:600;margin-top:8px}
+.modal-underlying .mono{color:var(--dim);font-weight:500;font-size:13px}
+.modal-tvlink{display:inline-block;margin-top:6px;font-size:12.5px;color:var(--gold);text-decoration:none}
+.modal-tvlink:hover{text-decoration:underline}
+.modal-body{margin-top:18px;display:flex;flex-direction:column;gap:12px}
+.modal-body label{font-size:12.5px;color:var(--dim);font-weight:600}
+.modal-optional{font-weight:400;color:var(--faint)}
+.modal-body input{width:100%;margin-top:4px;padding:11px 12px;font-size:15px;font-family:'JetBrains Mono',monospace;
+  color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:10px;outline:none;transition:border-color .15s}
+.modal-body input:focus{border-color:var(--gold)}
+.modal-note{font-size:11.5px;color:var(--faint);margin-top:3px}
+.modal-result{margin-top:6px;padding:14px 16px;background:var(--panel2);border:1px solid var(--line);border-radius:12px}
+.mr-label{font-size:12px;color:var(--dim)}
+.mr-value{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;color:var(--gold);margin-top:2px}
+.mr-premium{font-size:13px;font-weight:600;margin-top:6px}
+.modal-disclaimer{font-size:11px;color:var(--faint);line-height:1.6;margin-top:14px}
+
+@media(max-width:640px){
+  .modal-overlay{align-items:flex-end;padding:0}
+  .modal{max-width:100%;border-radius:16px 16px 0 0;max-height:85vh}
+}
 
 @media(max-width:640px){
   .row{grid-template-columns:1fr}
@@ -123,7 +156,40 @@ footer{max-width:960px;margin:0 auto;padding:0 20px 40px;color:var(--faint);font
 
 <div id="count"></div>
 <div id="list"></div>
-<footer>เรียบเรียงจากข้อมูลรายชื่อ DR ของตลาดหลักทรัพย์แห่งประเทศไทย (ณ ก.ค. 2569) · คำอธิบายธุรกิจเป็นสรุปอย่างย่อ ควรตรวจสอบข้อมูลล่าสุดกับผู้ออกก่อนลงทุน · DR ที่อ้างอิงหุ้นแม่เดียวกันต่างกันที่ผู้ออกและอัตราแปลงสภาพ</footer>
+<footer>เรียบเรียงจากข้อมูลรายชื่อ DR ของตลาดหลักทรัพย์แห่งประเทศไทย (ณ ก.ค. 2569) · คำอธิบายธุรกิจเป็นสรุปอย่างย่อ ควรตรวจสอบข้อมูลล่าสุดกับผู้ออกก่อนลงทุน · DR ที่อ้างอิงหุ้นแม่เดียวกันต่างกันที่ผู้ออกและอัตราแปลงสภาพ · คลิกที่ชื่อ DR เพื่อคำนวณมูลค่าที่ควรจะเป็น</footer>
+
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalHeader">
+    <button class="modal-close" id="modalClose" aria-label="ปิด">✕</button>
+    <div id="modalHeader"></div>
+    <div class="modal-body">
+      <div>
+        <label>ราคาหุ้นแม่ (<span id="mCcy"></span>)</label>
+        <input id="mPrice" type="number" inputmode="decimal" step="any" placeholder="0.00">
+      </div>
+      <div>
+        <label>อัตราแลกเปลี่ยน (THB ต่อ 1 <span id="mCcy2"></span>)</label>
+        <input id="mFx" type="number" inputmode="decimal" step="any" placeholder="0.0000">
+        <div class="modal-note" id="mFxNote"></div>
+      </div>
+      <div>
+        <label>อัตราแปลง (DR ต่อ 1 หุ้นแม่)</label>
+        <input id="mRatio" type="number" inputmode="decimal" step="any" placeholder="เช่น 100">
+        <div class="modal-note" id="mRatioHint"></div>
+      </div>
+      <div>
+        <label>ราคา DR บนกระดาน (บาท) <span class="modal-optional">(ไม่บังคับ)</span></label>
+        <input id="mMarket" type="number" inputmode="decimal" step="any" placeholder="0.00">
+      </div>
+      <div class="modal-result">
+        <div class="mr-label">มูลค่าที่ควรจะเป็น</div>
+        <div class="mr-value" id="mFair">–</div>
+        <div class="mr-premium" id="mPremium"></div>
+      </div>
+      <div class="modal-disclaimer">เป็นค่าประมาณ ไม่รวมค่าธรรมเนียมผู้ออกและเงินปันผลค้างจ่าย · อัตราแปลงอาจเปลี่ยนได้ ตรวจสอบกับผู้ออกก่อนใช้ตัดสินใจ</div>
+    </div>
+  </div>
+</div>
 
 <script>
 let D=[];
@@ -136,28 +202,30 @@ let type="all", cty="all", q="";
 const list=document.getElementById("list"), count=document.getElementById("count");
 
 function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
-function drChip(sym){
+function drChip(dr,usym){
+  const sym=dr.sym;
   const m=sym.match(/(\d{2})$/); const suf=m?m[1]:"";
   const cvar=COLORS[suf]||"--dim";
-  const iss=ISSUER[suf]?` title="ผู้ออก: ${ISSUER[suf]}"`:"";
+  const iss=ISSUER[suf]?`ผู้ออก: ${ISSUER[suf]} · `:"";
   const base=suf?sym.slice(0,-2):sym;
-  return `<span class="dr" style="border-left:3px solid var(${cvar})"${iss}>${esc(base)}<b style="color:var(${cvar})">${suf}</b></span>`;
+  return `<span class="dr" data-usym="${esc(usym)}" data-sym="${esc(sym)}" style="border-left:3px solid var(${cvar})" title="${iss}คลิกเพื่อคำนวณมูลค่าที่ควรจะเป็น">${esc(base)}<b style="color:var(${cvar})">${suf}</b></span>`;
 }
 
 function render(){
   const terms=q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   let shown=0, drShown=0, html="";
-  for(const r of D){
-    const [sym,name,desc,drs,c,t,tv]=r;
+  for(const u of D){
+    const {symbol:sym,name,desc,drs,country:c,type:t,tv}=u;
     if(type!=="all"&&t!==type)continue;
     if(cty!=="all"&&c!==cty)continue;
-    const hay=(sym+" "+name+" "+desc+" "+drs+" "+CTY[c]).toLowerCase();
+    const drSyms=drs.map(d=>d.sym).join(" ");
+    const hay=(sym+" "+name+" "+desc+" "+drSyms+" "+CTY[c]).toLowerCase();
     if(terms.length&&!terms.every(w=>hay.includes(w)))continue;
-    shown++; drShown+=drs.split(" ").length;
+    shown++; drShown+=drs.length;
     html+=`<div class="row">
       <div><div class="usym">${tv?`<a href="https://www.tradingview.com/chart/?symbol=${encodeURIComponent(tv)}" target="_blank" rel="noopener" title="ดูกราฟ ${esc(tv)} บน TradingView">${esc(sym)}</a>`:esc(sym)}</div><div class="utag">${CTY[c]}${t==="etf"?" · ETF":""}</div></div>
       <div><div class="uname">${esc(name)}</div><div class="udesc">${esc(desc)}</div></div>
-      <div class="drs">${drs.split(" ").map(drChip).join("")}</div>
+      <div class="drs">${drs.map(d=>drChip(d,sym)).join("")}</div>
     </div>`;
   }
   list.innerHTML=html||`<div class="empty">ไม่พบผลลัพธ์ — ลองคำค้นอื่น เช่น "ชิป" "ทองคำ" "EV"</div>`;
@@ -188,12 +256,112 @@ document.getElementById("ctyChips").addEventListener("click",e=>{
 fetch("data/dr.json")
   .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
   .then(rows=>{
-    D=rows.map(o=>[o.symbol,o.name,o.desc,o.drs.join(" "),o.country,o.type,o.tv||null]);
+    D=rows;
     document.getElementById("totalU").textContent=rows.length;
     document.getElementById("totalD").textContent=rows.reduce((s,o)=>s+o.drs.length,0);
     render();
   })
   .catch(()=>{list.innerHTML='<div class="empty">โหลดข้อมูลไม่สำเร็จ — กรุณาลองใหม่</div>'});
+
+/* ---- DR fair value calculator ---- */
+const FX_URL="https://open.er-api.com/v6/latest/THB";
+const FX_TTL=60*60*1000; // 1h
+let fxCache=null;
+const overlay=document.getElementById("modalOverlay");
+const mPrice=document.getElementById("mPrice"), mFx=document.getElementById("mFx"),
+      mRatio=document.getElementById("mRatio"), mMarket=document.getElementById("mMarket");
+
+async function getFxRate(ccy){
+  if(!fxCache){
+    try{
+      const cached=JSON.parse(sessionStorage.getItem("fxCache")||"null");
+      if(cached&&Date.now()-cached.ts<FX_TTL)fxCache=cached;
+    }catch(e){}
+  }
+  if(!fxCache){
+    try{
+      const r=await fetch(FX_URL);
+      if(!r.ok)throw new Error(r.status);
+      const j=await r.json();
+      if(!j.rates)throw new Error("no rates");
+      fxCache={rates:j.rates,ts:Date.now()};
+      try{sessionStorage.setItem("fxCache",JSON.stringify(fxCache));}catch(e){}
+    }catch(e){
+      return null;
+    }
+  }
+  const rate=fxCache.rates[ccy];
+  return rate?1/rate:null;
+}
+
+function fmtNum(n,dec){return n.toLocaleString("en-US",{minimumFractionDigits:dec,maximumFractionDigits:dec})}
+
+function computeResult(){
+  const price=parseFloat(mPrice.value), fx=parseFloat(mFx.value),
+        ratio=parseFloat(mRatio.value), market=parseFloat(mMarket.value);
+  const fairEl=document.getElementById("mFair"), premEl=document.getElementById("mPremium");
+  if(!(price>0)||!(fx>0)||!(ratio>0)){
+    fairEl.textContent="–"; premEl.textContent=""; return;
+  }
+  const fair=price*fx/ratio;
+  const dec=fair>=10?2:4;
+  fairEl.textContent=fmtNum(fair,dec)+" บาท";
+  if(market>0){
+    const pct=(market-fair)/fair*100;
+    const isPremium=pct>0;
+    premEl.textContent=`${isPremium?"แพงกว่า":"ถูกกว่า"}มูลค่าจริง ${Math.abs(pct).toFixed(1)}% (${isPremium?"premium":"discount"})`;
+    premEl.style.color=isPremium?"var(--bad)":"var(--good)";
+  }else{
+    premEl.textContent="";
+  }
+}
+[mPrice,mFx,mRatio,mMarket].forEach(el=>el.addEventListener("input",computeResult));
+
+function showModal(){overlay.hidden=false;document.body.style.overflow="hidden"}
+function hideModal(){overlay.hidden=true;document.body.style.overflow=""}
+
+async function openCalc(u,dr){
+  const sym=dr.sym;
+  const m=sym.match(/(\d{2})$/); const suf=m?m[1]:"";
+  const cvar=COLORS[suf]||"--dim";
+  const base=suf?sym.slice(0,-2):sym;
+  document.getElementById("modalHeader").innerHTML=`
+    <div class="modal-drsym">${esc(base)}<b style="color:var(${cvar})">${suf}</b></div>
+    <div class="modal-issuer">${ISSUER[suf]?`ออกโดย ${esc(ISSUER[suf])}`:""}</div>
+    <div class="modal-underlying">${esc(u.name)} <span class="mono">(${esc(u.symbol)})</span></div>
+    ${u.tv?`<a class="modal-tvlink" href="https://www.tradingview.com/chart/?symbol=${encodeURIComponent(u.tv)}" target="_blank" rel="noopener">ดูราคาบน TradingView ↗</a>`:""}
+  `;
+  document.getElementById("mCcy").textContent=u.ccy;
+  document.getElementById("mCcy2").textContent=u.ccy;
+  mPrice.value=""; mMarket.value="";
+  mRatio.value=dr.ratio!=null?dr.ratio:"";
+  document.getElementById("mRatioHint").textContent=dr.ratio!=null?"":"ดูจากหนังสือชี้ชวน/เว็บผู้ออก";
+  mFx.value="";
+  document.getElementById("mFxNote").textContent="กำลังดึงอัตราแลกเปลี่ยน…";
+  showModal();
+  computeResult();
+  const rate=await getFxRate(u.ccy);
+  if(rate){
+    mFx.value=rate.toFixed(4);
+    document.getElementById("mFxNote").textContent="อัตราอ้างอิง open.er-api.com";
+  }else{
+    document.getElementById("mFxNote").textContent="ดึงอัตราแลกเปลี่ยนไม่สำเร็จ กรอกเอง";
+  }
+  computeResult();
+}
+
+list.addEventListener("click",e=>{
+  const chip=e.target.closest(".dr");
+  if(!chip)return;
+  const u=D.find(x=>x.symbol===chip.dataset.usym);
+  if(!u)return;
+  const dr=u.drs.find(d=>d.sym===chip.dataset.sym);
+  if(!dr)return;
+  openCalc(u,dr);
+});
+document.getElementById("modalClose").addEventListener("click",hideModal);
+overlay.addEventListener("click",e=>{if(e.target===overlay)hideModal()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!overlay.hidden)hideModal()});
 </script>
 </body>
 </html>
