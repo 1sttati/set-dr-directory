@@ -1,5 +1,24 @@
 [
  {
+  "symbol": "AAOI",
+  "name": "Applied Optoelectronics",
+  "desc": "Optical transceiver 800G/1.6T สำหรับ AI Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AAOI03",
+    "ratio": 3000
+   },
+   {
+    "sym": "AAOI23",
+    "ratio": 1500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AAOI"
+ },
+ {
   "symbol": "AAPL",
   "name": "Apple Inc.",
   "desc": "iPhone, iPad, Mac และบริการดิจิทัล หนึ่งใน Magnificent 7",
@@ -141,6 +160,40 @@
   "tv": "HKEX:1299"
  },
  {
+  "symbol": "AIRBUS",
+  "name": "Airbus (AIR)",
+  "desc": "ผู้ผลิตเครื่องบินพาณิชย์รายใหญ่ของโลก จดทะเบียนปารีส",
+  "ccy": "EUR",
+  "drs": [
+   {
+    "sym": "AIRBUS80",
+    "ratio": 2400
+   }
+  ],
+  "country": "eu",
+  "type": "stock",
+  "tv": "EURONEXT:AIR"
+ },
+ {
+  "symbol": "AJINOMOTO",
+  "name": "Ajinomoto (2802)",
+  "desc": "เครื่องปรุงรสระดับโลก และเจ้าของฟิล์ม ABF สำหรับ substrate ชิป CPU/GPU",
+  "ccy": "JPY",
+  "drs": [
+   {
+    "sym": "AJINO23",
+    "ratio": 500
+   },
+   {
+    "sym": "AJINO80",
+    "ratio": 300
+   }
+  ],
+  "country": "jp",
+  "type": "stock",
+  "tv": "TSE:2802"
+ },
+ {
   "symbol": "ALAB",
   "name": "Astera Labs",
   "desc": "ชิปเชื่อมต่อความเร็วสูงระหว่าง GPU/CPU สำหรับ AI",
@@ -149,6 +202,10 @@
    {
     "sym": "ALAB01",
     "ratio": 2300
+   },
+   {
+    "sym": "ALAB23",
+    "ratio": 5000
    }
   ],
   "country": "us",
@@ -172,6 +229,10 @@
    {
     "sym": "AMAT23",
     "ratio": 2500
+   },
+   {
+    "sym": "AMAT80",
+    "ratio": 5500
    }
   ],
   "country": "us",
@@ -202,6 +263,21 @@
   "tv": "AMD"
  },
  {
+  "symbol": "AMEC",
+  "name": "AMEC (688012)",
+  "desc": "เครื่องจักร etching สำหรับผลิตชิป ผู้นำจีน จดทะเบียน STAR Market",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "AMEC80",
+    "ratio": 500
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "SSE:688012"
+ },
+ {
   "symbol": "AMGN",
   "name": "Amgen",
   "desc": "ไบโอเทคผลิตยาชีววัตถุระดับโลก",
@@ -215,6 +291,40 @@
   "country": "us",
   "type": "stock",
   "tv": "AMGN"
+ },
+ {
+  "symbol": "AMKR",
+  "name": "Amkor Technology",
+  "desc": "รับจ้างประกอบและทดสอบชิป (OSAT) เชี่ยวชาญ Advanced Packaging",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AMKR03",
+    "ratio": 1000
+   },
+   {
+    "sym": "AMKR23",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AMKR"
+ },
+ {
+  "symbol": "AMPX",
+  "name": "Amprius Technologies",
+  "desc": "แบตเตอรี่ลิเธียมไอออน Silicon Nanowire สำหรับอากาศยานและโดรน",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AMPX03",
+    "ratio": 200
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AMPX"
  },
  {
   "symbol": "AMZN",
@@ -381,6 +491,10 @@
    {
     "sym": "ASTS03",
     "ratio": 1000
+   },
+   {
+    "sym": "ASTS23",
+    "ratio": 1000
    }
   ],
   "country": "us",
@@ -436,6 +550,10 @@
     "ratio": 100
    },
    {
+    "sym": "BABA11",
+    "ratio": 100
+   },
+   {
     "sym": "BABA13",
     "ratio": 250
    },
@@ -485,6 +603,25 @@
   "country": "us",
   "type": "stock",
   "tv": "BDX"
+ },
+ {
+  "symbol": "BE",
+  "name": "Bloom Energy",
+  "desc": "ระบบผลิตไฟฟ้า Solid Oxide Fuel Cell สำหรับองค์กรและ Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "BE03",
+    "ratio": 5000
+   },
+   {
+    "sym": "BE80",
+    "ratio": 2500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "BE"
  },
  {
   "symbol": "BIDU",
@@ -561,6 +698,21 @@
   "country": "us",
   "type": "stock",
   "tv": "BKNG"
+ },
+ {
+  "symbol": "BKSY",
+  "name": "BlackSky Technology",
+  "desc": "ดาวเทียมสังเกตการณ์โลกความละเอียดสูง วิเคราะห์ภาพด้วย AI",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "BKSY03",
+    "ratio": null
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "BKSY"
  },
  {
   "symbol": "BLK",
@@ -755,6 +907,10 @@
    {
     "sym": "CAT19",
     "ratio": 5000
+   },
+   {
+    "sym": "CAT80",
+    "ratio": 9000
    }
   ],
   "country": "us",
@@ -783,6 +939,25 @@
   "country": "cn",
   "type": "stock",
   "tv": "HKEX:3750"
+ },
+ {
+  "symbol": "CBRS",
+  "name": "Cerebras Systems",
+  "desc": "ชิป AI ขนาดทั้งเวเฟอร์ (Wafer-Scale Engine) สำหรับฝึกและรัน AI",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "CBRS03",
+    "ratio": 4000
+   },
+   {
+    "sym": "CBRS80",
+    "ratio": 2300
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "CBRS"
  },
  {
   "symbol": "CCJ",
@@ -876,6 +1051,21 @@
   ],
   "country": "cn",
   "type": "etf"
+ },
+ {
+  "symbol": "CIEN",
+  "name": "Ciena",
+  "desc": "อุปกรณ์เครือข่ายออปติกและซอฟต์แวร์สำหรับ Telecom/Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "CIEN03",
+    "ratio": 10000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "CIEN"
  },
  {
   "symbol": "CMBANK",
@@ -1081,6 +1271,10 @@
    {
     "sym": "CRDO23",
     "ratio": 1000
+   },
+   {
+    "sym": "CRDO80",
+    "ratio": 2500
    }
   ],
   "country": "us",
@@ -1153,6 +1347,10 @@
    {
     "sym": "CRWV03",
     "ratio": 1000
+   },
+   {
+    "sym": "CRWV23",
+    "ratio": 1000
    }
   ],
   "country": "us",
@@ -1173,6 +1371,21 @@
   "country": "us",
   "type": "stock",
   "tv": "CSCO"
+ },
+ {
+  "symbol": "CSOP KOSPI200 ETF",
+  "name": "CSOP KOSPI 200 ETF (3121)",
+  "desc": "หุ้นเกาหลีใต้ 200 ตัวตามดัชนี KOSPI 200 (Samsung, SK hynix) จดทะเบียนฮ่องกง",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "KOREA01",
+    "ratio": null
+   }
+  ],
+  "country": "cn",
+  "type": "etf",
+  "tv": "HKEX:3121"
  },
  {
   "symbol": "CYPC",
@@ -1287,11 +1500,34 @@
    {
     "sym": "DELL19",
     "ratio": 1000
+   },
+   {
+    "sym": "DELL23",
+    "ratio": 5000
+   },
+   {
+    "sym": "DELL80",
+    "ratio": 5000
    }
   ],
   "country": "us",
   "type": "stock",
   "tv": "DELL"
+ },
+ {
+  "symbol": "DEYE",
+  "name": "Deye Technology (605117)",
+  "desc": "อินเวอร์เตอร์และระบบกักเก็บพลังงานโซลาร์",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "DEYE80",
+    "ratio": 120
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "SSE:605117"
  },
  {
   "symbol": "DISCO",
@@ -1358,6 +1594,66 @@
   "tv": "DUOL"
  },
  {
+  "symbol": "EFUND CHINA AI ETF",
+  "name": "E Fund CSI AI ETF (159819)",
+  "desc": "หุ้นห่วงโซ่ AI ของจีนตามดัชนี CSI AI โดย E Fund",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "CHAI80",
+    "ratio": 5
+   }
+  ],
+  "country": "cn",
+  "type": "etf",
+  "tv": "SZSE:159819"
+ },
+ {
+  "symbol": "EFUND CHINEXT ETF",
+  "name": "E Fund ChiNext ETF (159915)",
+  "desc": "หุ้นเติบโตสูงในกระดาน ChiNext โดย E Fund",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "CHNEXT80",
+    "ratio": 10
+   }
+  ],
+  "country": "cn",
+  "type": "etf",
+  "tv": "SZSE:159915"
+ },
+ {
+  "symbol": "EFUND CSI300 ETF",
+  "name": "E Fund CSI 300 ETF (510310)",
+  "desc": "หุ้นจีน A-Shares ขนาดใหญ่ 300 ตัว โดย E Fund",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "CH30080",
+    "ratio": 10
+   }
+  ],
+  "country": "cn",
+  "type": "etf",
+  "tv": "SSE:510310"
+ },
+ {
+  "symbol": "EFUND STAR50 ETF",
+  "name": "E Fund STAR 50 ETF (588080)",
+  "desc": "หุ้นเทค 50 ตัวในกระดาน STAR Market โดย E Fund",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "CHSTAR5080",
+    "ratio": 5
+   }
+  ],
+  "country": "cn",
+  "type": "etf",
+  "tv": "SSE:588080"
+ },
+ {
   "symbol": "EOSE",
   "name": "Eos Energy",
   "desc": "แบตเตอรี่ zinc สำหรับกักเก็บพลังงานระดับกริด",
@@ -1366,6 +1662,10 @@
    {
     "sym": "EOSE03",
     "ratio": 200
+   },
+   {
+    "sym": "EOSE23",
+    "ratio": 50
    }
   ],
   "country": "us",
@@ -1393,6 +1693,10 @@
   "desc": "ระบบจัดการพลังงานไฟฟ้าสำหรับ Data Center และอาคาร",
   "ccy": "USD",
   "drs": [
+   {
+    "sym": "ETN03",
+    "ratio": 6000
+   },
    {
     "sym": "ETN23",
     "ratio": 2000
@@ -1424,8 +1728,16 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "FABRINET03",
+    "ratio": 10000
+   },
+   {
     "sym": "FABRINET23",
     "ratio": 4000
+   },
+   {
+    "sym": "FABRINET80",
+    "ratio": 6000
    }
   ],
   "country": "us",
@@ -1495,6 +1807,36 @@
   "country": "vn",
   "type": "stock",
   "tv": "HOSE:FPT"
+ },
+ {
+  "symbol": "FSLR",
+  "name": "First Solar",
+  "desc": "แผงโซลาร์ Thin-Film (CdTe) รายใหญ่สุดของสหรัฐ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "FSLR03",
+    "ratio": 4000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "FSLR"
+ },
+ {
+  "symbol": "FTNT",
+  "name": "Fortinet",
+  "desc": "ความปลอดภัยไซเบอร์ Firewall, SASE, SD-WAN",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "FTNT03",
+    "ratio": 2000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "FTNT"
  },
  {
   "symbol": "FWONK",
@@ -1612,6 +1954,21 @@
   "country": "us",
   "type": "stock",
   "tv": "GEV"
+ },
+ {
+  "symbol": "GFS",
+  "name": "GlobalFoundries",
+  "desc": "โรงงานรับผลิตชิปสำหรับยานยนต์ IoT และโทรคมนาคม",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "GFS03",
+    "ratio": 1200
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "GFS"
  },
  {
   "symbol": "GIGA",
@@ -1925,6 +2282,21 @@
   "tv": "HKEX:9660"
  },
  {
+  "symbol": "HPE",
+  "name": "Hewlett Packard Enterprise",
+  "desc": "เซิร์ฟเวอร์ AI, ระบบเครือข่าย (Juniper) และ Hybrid Cloud",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "HPE80",
+    "ratio": 600
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "HPE"
+ },
+ {
   "symbol": "HPG",
   "name": "Hoa Phat Group",
   "desc": "ผู้ผลิตเหล็กรายใหญ่ของเวียดนาม",
@@ -2007,6 +2379,10 @@
    {
     "sym": "HUAHONG23",
     "ratio": 70
+   },
+   {
+    "sym": "HUAHONG80",
+    "ratio": 150
    }
   ],
   "country": "cn",
@@ -2029,6 +2405,25 @@
   "tv": "SSE:688041"
  },
  {
+  "symbol": "IBIDEN",
+  "name": "Ibiden (4062)",
+  "desc": "IC Package Substrate ประสิทธิภาพสูงให้ NVIDIA และ Intel",
+  "ccy": "JPY",
+  "drs": [
+   {
+    "sym": "IBIDEN23",
+    "ratio": 1000
+   },
+   {
+    "sym": "IBIDEN80",
+    "ratio": 1300
+   }
+  ],
+  "country": "jp",
+  "type": "stock",
+  "tv": "TSE:4062"
+ },
+ {
   "symbol": "IBM",
   "name": "IBM",
   "desc": "คลาวด์ไฮบริด ซอฟต์แวร์องค์กร และควอนตัม",
@@ -2037,6 +2432,10 @@
    {
     "sym": "IBM06",
     "ratio": 2500
+   },
+   {
+    "sym": "IBM23",
+    "ratio": 3000
    }
   ],
   "country": "us",
@@ -2078,6 +2477,21 @@
   "tv": "SZSE:002230"
  },
  {
+  "symbol": "INFQ",
+  "name": "Infleqtion",
+  "desc": "เทคโนโลยีควอนตัมแบบ neutral atom: เซนเซอร์ นาฬิกา และคอมพิวเตอร์ควอนตัม",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "INFQ03",
+    "ratio": null
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "INFQ"
+ },
+ {
   "symbol": "INTEL",
   "name": "Intel",
   "desc": "ผู้ผลิต CPU x86 และธุรกิจ foundry",
@@ -2098,6 +2512,10 @@
    {
     "sym": "INTEL23",
     "ratio": 700
+   },
+   {
+    "sym": "INTEL80",
+    "ratio": 1000
    }
   ],
   "country": "us",
@@ -2210,6 +2628,21 @@
   "tv": "TSE:8001"
  },
  {
+  "symbol": "JCI",
+  "name": "Johnson Controls",
+  "desc": "ระบบอาคารอัจฉริยะ HVAC ความปลอดภัย และจัดการพลังงานอาคาร",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "JCI03",
+    "ratio": 2000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "JCI"
+ },
+ {
   "symbol": "JD",
   "name": "JD.com (9618)",
   "desc": "อีคอมเมิร์ซ+โลจิสติกส์ครบวงจรของจีน",
@@ -2298,6 +2731,21 @@
   "country": "us",
   "type": "stock",
   "tv": "JNJ"
+ },
+ {
+  "symbol": "JOBY",
+  "name": "Joby Aviation",
+  "desc": "แท็กซี่บินไฟฟ้า eVTOL",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "JOBY03",
+    "ratio": 100
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "JOBY"
  },
  {
   "symbol": "JPANIME ETF",
@@ -2472,6 +2920,10 @@
    {
     "sym": "KIOXIA23",
     "ratio": 1600
+   },
+   {
+    "sym": "KIOXIA80",
+    "ratio": 3000
    }
   ],
   "country": "jp",
@@ -2544,6 +2996,10 @@
    {
     "sym": "KUAISH06",
     "ratio": 100
+   },
+   {
+    "sym": "KUAISH11",
+    "ratio": 50
    },
    {
     "sym": "KUAISH23",
@@ -2686,6 +3142,21 @@
   "country": "us",
   "type": "stock",
   "tv": "LULU"
+ },
+ {
+  "symbol": "LUXSHARE",
+  "name": "Luxshare Precision (2475)",
+  "desc": "ชิ้นส่วนอิเล็กทรอนิกส์และประกอบอุปกรณ์ให้ Apple จดทะเบียนฮ่องกง",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "LUXSHARE80",
+    "ratio": 90
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "HKEX:2475"
  },
  {
   "symbol": "LVMH",
@@ -2878,6 +3349,21 @@
   "tv": "HKEX:2097"
  },
  {
+  "symbol": "MKSI",
+  "name": "MKS Inc.",
+  "desc": "อุปกรณ์และระบบควบคุมกระบวนการผลิตเซมิคอนดักเตอร์",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "MKSI03",
+    "ratio": 5000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "MKSI"
+ },
+ {
   "symbol": "MNSO",
   "name": "Miniso (9896)",
   "desc": "ร้านสินค้าไลฟ์สไตล์ราคาประหยัด",
@@ -2970,6 +3456,21 @@
   "country": "us",
   "type": "stock",
   "tv": "MPWR"
+ },
+ {
+  "symbol": "MRAM",
+  "name": "Everspin Technologies",
+  "desc": "ชิปหน่วยความจำ MRAM แบบ non-volatile สำหรับอุตสาหกรรมและ Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "MRAM03",
+    "ratio": 500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "MRAM"
  },
  {
   "symbol": "MRVL",
@@ -3081,6 +3582,21 @@
   "country": "jp",
   "type": "stock",
   "tv": "TSE:8306"
+ },
+ {
+  "symbol": "MURATA",
+  "name": "Murata (6981)",
+  "desc": "ตัวเก็บประจุ MLCC อันดับ 1 ของโลก ชิ้นส่วนพื้นฐานของ AI Server",
+  "ccy": "JPY",
+  "drs": [
+   {
+    "sym": "MURATA23",
+    "ratio": 800
+   }
+  ],
+  "country": "jp",
+  "type": "stock",
+  "tv": "TSE:6981"
  },
  {
   "symbol": "MWG",
@@ -3212,6 +3728,21 @@
   "tv": "NET"
  },
  {
+  "symbol": "NETEASE",
+  "name": "NetEase (9999)",
+  "desc": "เกมออนไลน์รายใหญ่ของจีน + NetEase Cloud Music",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "NETEASE11",
+    "ratio": 200
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "HKEX:9999"
+ },
+ {
   "symbol": "NFLX",
   "name": "Netflix",
   "desc": "สตรีมมิ่งใหญ่สุดของโลก",
@@ -3318,6 +3849,10 @@
    {
     "sym": "NOW19",
     "ratio": 1000
+   },
+   {
+    "sym": "NOW23",
+    "ratio": 1500
    }
   ],
   "country": "us",
@@ -3400,6 +3935,10 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "OKLO03",
+    "ratio": 1000
+   },
+   {
     "sym": "OKLO23",
     "ratio": 400
    }
@@ -3422,6 +3961,21 @@
   "country": "us",
   "type": "stock",
   "tv": "ON"
+ },
+ {
+  "symbol": "ONDS",
+  "name": "Ondas Holdings",
+  "desc": "เครือข่ายไร้สายเอกชนและโดรนอัตโนมัติสำหรับอุตสาหกรรม/กลาโหม",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "ONDS03",
+    "ratio": 100
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "ONDS"
  },
  {
   "symbol": "ONON",
@@ -3457,6 +4011,10 @@
     "ratio": 1000
    },
    {
+    "sym": "ORCL23",
+    "ratio": 2000
+   },
+   {
     "sym": "ORCL80",
     "ratio": 1000
    }
@@ -3464,6 +4022,21 @@
   "country": "us",
   "type": "stock",
   "tv": "ORCL"
+ },
+ {
+  "symbol": "OXY",
+  "name": "Occidental Petroleum",
+  "desc": "น้ำมันและก๊าซ เคมีภัณฑ์ และดักจับคาร์บอน (Berkshire ถือหุ้นใหญ่)",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "OXY03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "OXY"
  },
  {
   "symbol": "PANW",
@@ -3540,6 +4113,10 @@
     "ratio": 44
    },
    {
+    "sym": "PINGAN11",
+    "ratio": 50
+   },
+   {
     "sym": "PINGAN80",
     "ratio": 100
    }
@@ -3547,6 +4124,21 @@
   "country": "cn",
   "type": "stock",
   "tv": "HKEX:2318"
+ },
+ {
+  "symbol": "PLAB",
+  "name": "Planet Labs (PL)",
+  "desc": "กลุ่มดาวเทียมถ่ายภาพโลกรายวัน (CubeSat)",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "PLAB03",
+    "ratio": 600
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "PL"
  },
  {
   "symbol": "PLTR",
@@ -3569,6 +4161,10 @@
    {
     "sym": "PLTR23",
     "ratio": 1900
+   },
+   {
+    "sym": "PLTR80",
+    "ratio": 1700
    }
   ],
   "country": "us",
@@ -3596,6 +4192,10 @@
   "desc": "อาร์ตทอย Labubu, Molly, Dimoo",
   "ccy": "HKD",
   "drs": [
+   {
+    "sym": "POPMART11",
+    "ratio": 100
+   },
    {
     "sym": "POPMART23",
     "ratio": 420
@@ -3625,6 +4225,25 @@
   "tv": "HKEX:3151"
  },
  {
+  "symbol": "PWR",
+  "name": "Quanta Services",
+  "desc": "รับเหมาโครงสร้างพื้นฐานไฟฟ้า สายส่ง และพลังงานหมุนเวียน",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "PWR03",
+    "ratio": 10000
+   },
+   {
+    "sym": "PWR80",
+    "ratio": 7000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "PWR"
+ },
+ {
   "symbol": "PYPL",
   "name": "PayPal",
   "desc": "ชำระเงินออนไลน์ PayPal, Venmo",
@@ -3640,6 +4259,21 @@
   "tv": "PYPL"
  },
  {
+  "symbol": "QBTS",
+  "name": "D-Wave Quantum",
+  "desc": "คอมพิวเตอร์ควอนตัมเชิงพาณิชย์แบบ Quantum Annealing",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "QBTS03",
+    "ratio": 400
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "QBTS"
+ },
+ {
   "symbol": "QCOM",
   "name": "Qualcomm",
   "desc": "ชิป Snapdragon สำหรับสมาร์ทโฟนและรถยนต์",
@@ -3648,6 +4282,14 @@
    {
     "sym": "QCOM06",
     "ratio": 2000
+   },
+   {
+    "sym": "QCOM23",
+    "ratio": 2200
+   },
+   {
+    "sym": "QCOM80",
+    "ratio": 1700
    }
   ],
   "country": "us",
@@ -3693,6 +4335,10 @@
    {
     "sym": "RGTI03",
     "ratio": 200
+   },
+   {
+    "sym": "RGTI23",
+    "ratio": 250
    }
   ],
   "country": "us",
@@ -3809,6 +4455,21 @@
   "tv": "EURONEXT:SU"
  },
  {
+  "symbol": "SCREEN",
+  "name": "SCREEN Holdings (7735)",
+  "desc": "เครื่องล้างทำความสะอาดเวเฟอร์ อันดับ 1 ของโลก",
+  "ccy": "JPY",
+  "drs": [
+   {
+    "sym": "SCREEN23",
+    "ratio": 1000
+   }
+  ],
+  "country": "jp",
+  "type": "stock",
+  "tv": "TSE:7735"
+ },
+ {
   "symbol": "SEAGATE",
   "name": "Seagate (STX)",
   "desc": "ฮาร์ดดิสก์ความจุสูงสำหรับ Data Center",
@@ -3817,6 +4478,10 @@
    {
     "sym": "SEAGATE23",
     "ratio": 4800
+   },
+   {
+    "sym": "SEAGATE80",
+    "ratio": 9000
    }
   ],
   "country": "us",
@@ -4024,6 +4689,25 @@
   "tv": "HKEX:981"
  },
  {
+  "symbol": "SMR",
+  "name": "NuScale Power",
+  "desc": "เตาปฏิกรณ์นิวเคลียร์โมดูลขนาดเล็ก (SMR) รายแรกที่ NRC รับรอง",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "SMR03",
+    "ratio": 200
+   },
+   {
+    "sym": "SMR23",
+    "ratio": 150
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "SMR"
+ },
+ {
   "symbol": "SNDK",
   "name": "SanDisk",
   "desc": "หน่วยความจำแฟลชและ SSD (แยกจาก Western Digital)",
@@ -4223,6 +4907,20 @@
   "tv": "HKEX:2840"
  },
  {
+  "symbol": "SPDR GOLD SG ETF",
+  "name": "SPDR Gold Shares (GSD)",
+  "desc": "ทองคำแท่ง จดทะเบียนสิงคโปร์",
+  "ccy": "SGD",
+  "drs": [
+   {
+    "sym": "GOLD19",
+    "ratio": 1000
+   }
+  ],
+  "country": "sg",
+  "type": "etf"
+ },
+ {
   "symbol": "SPDR GOLD US ETF",
   "name": "SPDR Gold Shares (GLD)",
   "desc": "กองทุนทองคำแท่งใหญ่สุดของโลก",
@@ -4244,20 +4942,6 @@
   "country": "us",
   "type": "etf",
   "tv": "AMEX:GLD"
- },
- {
-  "symbol": "SPDR GOLD SG ETF",
-  "name": "SPDR Gold Shares (GSD)",
-  "desc": "ทองคำแท่ง จดทะเบียนสิงคโปร์",
-  "ccy": "SGD",
-  "drs": [
-   {
-    "sym": "GOLD19",
-    "ratio": 1000
-   }
-  ],
-  "country": "sg",
-  "type": "etf"
  },
  {
   "symbol": "SPENGY ETF",
@@ -4350,6 +5034,36 @@
   "tv": "SGX:S63"
  },
  {
+  "symbol": "STM",
+  "name": "STMicroelectronics",
+  "desc": "เซมิคอนดักเตอร์ยุโรป ชิปยานยนต์ EV, IoT และอุตสาหกรรม",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "STM03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "STM"
+ },
+ {
+  "symbol": "SUNGROW",
+  "name": "Sungrow Power (300274)",
+  "desc": "อินเวอร์เตอร์โซลาร์และ Energy Storage รายใหญ่ของโลก",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "SUNGROW80",
+    "ratio": 160
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "SZSE:300274"
+ },
+ {
   "symbol": "SUNNY",
   "name": "Sunny Optical (2382)",
   "desc": "เลนส์และโมดูลกล้องสมาร์ทโฟน",
@@ -4389,6 +5103,10 @@
   "desc": "หุ่นยนต์จัดการคลังสินค้าอัตโนมัติ (Walmart ใช้)",
   "ccy": "USD",
   "drs": [
+   {
+    "sym": "SYM03",
+    "ratio": 800
+   },
    {
     "sym": "SYM23",
     "ratio": 200
@@ -4449,6 +5167,10 @@
    {
     "sym": "TENCENT06",
     "ratio": 1000
+   },
+   {
+    "sym": "TENCENT11",
+    "ratio": 100
    },
    {
     "sym": "TENCENT13",
@@ -4525,6 +5247,21 @@
   "tv": "HKEX:1698"
  },
  {
+  "symbol": "TONGFU",
+  "name": "Tongfu Microelectronics (002156)",
+  "desc": "รับจ้างประกอบและทดสอบชิป (OSAT) รายใหญ่ของจีน คู่ค้า AMD",
+  "ccy": "CNY",
+  "drs": [
+   {
+    "sym": "TONGFU23",
+    "ratio": 150
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "SZSE:002156"
+ },
+ {
   "symbol": "TOYOTA",
   "name": "Toyota (7203)",
   "desc": "ผู้ผลิตรถยนต์ขายดีที่สุดในโลก",
@@ -4599,8 +5336,16 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "TSEMI03",
+    "ratio": 4500
+   },
+   {
     "sym": "TSEMI23",
     "ratio": 1000
+   },
+   {
+    "sym": "TSEMI80",
+    "ratio": 2500
    }
   ],
   "country": "us",
@@ -4633,6 +5378,21 @@
   "country": "us",
   "type": "stock",
   "tv": "TSLA"
+ },
+ {
+  "symbol": "TTMI",
+  "name": "TTM Technologies",
+  "desc": "แผงวงจรพิมพ์ (PCB) สำหรับ Data Center อากาศยาน และกลาโหม",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "TTMI80",
+    "ratio": 1500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "TTMI"
  },
  {
   "symbol": "UBER",
@@ -4708,6 +5468,21 @@
   "country": "sg",
   "type": "stock",
   "tv": "SGX:U11"
+ },
+ {
+  "symbol": "USAR",
+  "name": "USA Rare Earth",
+  "desc": "สำรวจและผลิตแร่หายาก (Rare Earth) ในสหรัฐ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "USAR03",
+    "ratio": 400
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "USAR"
  },
  {
   "symbol": "USTR ETF",
@@ -4875,6 +5650,21 @@
   "tv": "VRT"
  },
  {
+  "symbol": "VST",
+  "name": "Vistra",
+  "desc": "ผู้ผลิตไฟฟ้ารายใหญ่ของสหรัฐ นิวเคลียร์ ก๊าซ และหมุนเวียน",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "VST03",
+    "ratio": 2500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "VST"
+ },
+ {
   "symbol": "VT ETF",
   "name": "Vanguard Total World ETF (VT)",
   "desc": "หุ้นทั่วโลกทั้งตลาดพัฒนาแล้วและเกิดใหม่",
@@ -4888,6 +5678,21 @@
   "country": "us",
   "type": "etf",
   "tv": "AMEX:VT"
+ },
+ {
+  "symbol": "WDC",
+  "name": "Western Digital",
+  "desc": "ฮาร์ดดิสก์ (HDD) ความจุสูงสำหรับ Cloud และ Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "WDC03",
+    "ratio": 8000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "WDC"
  },
  {
   "symbol": "WMT",
@@ -4967,6 +5772,10 @@
     "ratio": 44
    },
    {
+    "sym": "XIAOMI11",
+    "ratio": 25
+   },
+   {
     "sym": "XIAOMI13",
     "ratio": 50
    },
@@ -5001,6 +5810,21 @@
   "country": "cn",
   "type": "stock",
   "tv": "HKEX:9868"
+ },
+ {
+  "symbol": "YOFC",
+  "name": "Yangtze Optical Fibre (6869)",
+  "desc": "ผู้ผลิตเส้นใยแก้วนำแสงครบวงจรรายใหญ่ของจีน",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "YOFC23",
+    "ratio": 100
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "HKEX:6869"
  },
  {
   "symbol": "YT TAIWAN50 ETF",
