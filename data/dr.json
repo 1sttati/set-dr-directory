@@ -2041,6 +2041,10 @@
    {
     "sym": "GOLDM01",
     "ratio": 700
+   },
+   {
+    "sym": "GOLDM23",
+    "ratio": null
    }
   ],
   "country": "us",
@@ -2553,6 +2557,21 @@
   "tv": "NASDAQ:QQQM"
  },
  {
+  "symbol": "INVESCO QQQ ETF",
+  "name": "Invesco QQQ Trust (QQQ)",
+  "desc": "ดัชนี Nasdaq-100 (หุ้นแม่รอยืนยันกับผู้ออก)",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "IQQ23",
+    "ratio": null
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "NASDAQ:QQQ"
+ },
+ {
   "symbol": "IONQ",
   "name": "IonQ",
   "desc": "คอมพิวเตอร์ควอนตัมแบบ trapped-ion",
@@ -2584,6 +2603,36 @@
   ],
   "country": "sg",
   "type": "etf"
+ },
+ {
+  "symbol": "ISHARES SEMI ETF",
+  "name": "iShares Semiconductor ETF (SOXX)",
+  "desc": "หุ้นเซมิคอนดักเตอร์สหรัฐ 30 ตัว",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "SOXX23",
+    "ratio": null
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "NASDAQ:SOXX"
+ },
+ {
+  "symbol": "ISHARES SP500 ETF",
+  "name": "iShares Core S&P 500 ETF (IVV)",
+  "desc": "ดัชนี S&P 500 ค่าธรรมเนียมต่ำ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "IVV23",
+    "ratio": null
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "AMEX:IVV"
  },
  {
   "symbol": "ISRG",
