@@ -80,6 +80,21 @@
   "tv": "ABNB"
  },
  {
+  "symbol": "ACHR",
+  "name": "Archer Aviation",
+  "desc": "เครื่องบิน eVTOL แท็กซี่อากาศไฟฟ้า",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "ACHR03",
+    "ratio": 100
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "ACHR"
+ },
+ {
   "symbol": "ADBE",
   "name": "Adobe",
   "desc": "ซอฟต์แวร์ครีเอทีฟ Photoshop, Illustrator, Acrobat",
@@ -120,6 +135,21 @@
   "country": "jp",
   "type": "stock",
   "tv": "TSE:6857"
+ },
+ {
+  "symbol": "AEHR",
+  "name": "Aehr Test Systems",
+  "desc": "เครื่องทดสอบ wafer-level burn-in สำหรับชิป SiC และ AI",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AEHR03",
+    "ratio": 1500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AEHR"
  },
  {
   "symbol": "AFRM",
@@ -204,6 +234,10 @@
     "ratio": 2300
    },
    {
+    "sym": "ALAB03",
+    "ratio": 5000
+   },
+   {
     "sym": "ALAB23",
     "ratio": 5000
    }
@@ -238,6 +272,21 @@
   "country": "us",
   "type": "stock",
   "tv": "AMAT"
+ },
+ {
+  "symbol": "AMBA",
+  "name": "Ambarella",
+  "desc": "ชิปประมวลผลภาพ AI vision สำหรับกล้องและรถยนต์",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AMBA03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AMBA"
  },
  {
   "symbol": "AMD",
@@ -325,6 +374,21 @@
   "country": "us",
   "type": "stock",
   "tv": "AMPX"
+ },
+ {
+  "symbol": "AMSC",
+  "name": "American Superconductor",
+  "desc": "ระบบไฟฟ้ากำลังและ grid สำหรับโครงข่ายไฟฟ้าและกองทัพเรือ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "AMSC03",
+    "ratio": 500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "AMSC"
  },
  {
   "symbol": "AMZN",
@@ -707,7 +771,7 @@
   "drs": [
    {
     "sym": "BKSY03",
-    "ratio": null
+    "ratio": 600
    }
   ],
   "country": "us",
@@ -1068,6 +1132,21 @@
   "tv": "CIEN"
  },
  {
+  "symbol": "CLS",
+  "name": "Celestica",
+  "desc": "รับผลิตฮาร์ดแวร์ server/network สำหรับ AI Data Center",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "CLS03",
+    "ratio": 5000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "CLS"
+ },
+ {
   "symbol": "CMBANK",
   "name": "China Merchants Bank (3968)",
   "desc": "ธนาคารจีนเด่นด้าน retail banking",
@@ -1244,6 +1323,21 @@
   "tv": "COIN"
  },
  {
+  "symbol": "COPX ETF",
+  "name": "Global X Copper Miners ETF (COPX)",
+  "desc": "หุ้นบริษัทเหมืองทองแดงทั่วโลก",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "COPX03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "AMEX:COPX"
+ },
+ {
   "symbol": "COSTCO",
   "name": "Costco",
   "desc": "ค้าปลีกระบบสมาชิกขายส่งราคาถูก",
@@ -1380,7 +1474,7 @@
   "drs": [
    {
     "sym": "KOREA01",
-    "ratio": null
+    "ratio": 3
    }
   ],
   "country": "cn",
@@ -1498,6 +1592,10 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "DELL03",
+    "ratio": 6000
+   },
+   {
     "sym": "DELL19",
     "ratio": 1000
    },
@@ -1594,6 +1692,21 @@
   "tv": "DUOL"
  },
  {
+  "symbol": "ECHO",
+  "name": "EchoStar",
+  "desc": "ดาวเทียมสื่อสารและบริการ Pay-TV/ไร้สาย (DISH, Boost)",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "ECHO03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "ECHO"
+ },
+ {
   "symbol": "EFUND CHINA AI ETF",
   "name": "E Fund CSI AI ETF (159819)",
   "desc": "หุ้นห่วงโซ่ AI ของจีนตามดัชนี CSI AI โดย E Fund",
@@ -1652,6 +1765,21 @@
   "country": "cn",
   "type": "etf",
   "tv": "SSE:588080"
+ },
+ {
+  "symbol": "ELMT",
+  "name": "The Elmet Group",
+  "desc": "ชิ้นส่วนวัสดุวิกฤต (ทังสเตน/โมลิบดีนัม) และผลิตภัณฑ์ไมโครเวฟ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "ELMT03",
+    "ratio": 200
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "ELMT"
  },
  {
   "symbol": "EOSE",
@@ -1918,6 +2046,21 @@
   "tv": "HKEX:9698"
  },
  {
+  "symbol": "GE",
+  "name": "GE Aerospace",
+  "desc": "เครื่องยนต์อากาศยานพาณิชย์และทหาร",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "GE03",
+    "ratio": 5000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "GE"
+ },
+ {
   "symbol": "GEELY",
   "name": "Geely Auto (175)",
   "desc": "ผู้ผลิตรถยนต์จีน เจ้าของ Volvo, Zeekr",
@@ -2044,7 +2187,7 @@
    },
    {
     "sym": "GOLDM23",
-    "ratio": null
+    "ratio": 300
    }
   ],
   "country": "us",
@@ -2292,6 +2435,10 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "HPE03",
+    "ratio": 800
+   },
+   {
     "sym": "HPE80",
     "ratio": 600
    }
@@ -2394,6 +2541,21 @@
   "tv": "HKEX:1347"
  },
  {
+  "symbol": "HXL",
+  "name": "Hexcel",
+  "desc": "วัสดุคาร์บอนไฟเบอร์คอมโพสิตสำหรับอากาศยาน",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "HXL03",
+    "ratio": 1500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "HXL"
+ },
+ {
   "symbol": "HYGON",
   "name": "Hygon (688041)",
   "desc": "CPU/DCU สัญชาติจีนสำหรับเซิร์ฟเวอร์และ AI",
@@ -2433,6 +2595,10 @@
   "desc": "คลาวด์ไฮบริด ซอฟต์แวร์องค์กร และควอนตัม",
   "ccy": "USD",
   "drs": [
+   {
+    "sym": "IBM03",
+    "ratio": 3000
+   },
    {
     "sym": "IBM06",
     "ratio": 2500
@@ -2488,7 +2654,7 @@
   "drs": [
    {
     "sym": "INFQ03",
-    "ratio": null
+    "ratio": 200
    }
   ],
   "country": "us",
@@ -2557,21 +2723,6 @@
   "tv": "NASDAQ:QQQM"
  },
  {
-  "symbol": "INVESCO QQQ ETF",
-  "name": "Invesco QQQ Trust (QQQ)",
-  "desc": "ดัชนี Nasdaq-100 (หุ้นแม่รอยืนยันกับผู้ออก)",
-  "ccy": "USD",
-  "drs": [
-   {
-    "sym": "IQQ23",
-    "ratio": null
-   }
-  ],
-  "country": "us",
-  "type": "etf",
-  "tv": "NASDAQ:QQQ"
- },
- {
   "symbol": "IONQ",
   "name": "IonQ",
   "desc": "คอมพิวเตอร์ควอนตัมแบบ trapped-ion",
@@ -2605,6 +2756,21 @@
   "type": "etf"
  },
  {
+  "symbol": "ISHARES NDAQ100 ETF",
+  "name": "iShares Nasdaq 100 ETF (IQQ)",
+  "desc": "ดัชนี Nasdaq-100 ค่าธรรมเนียมต่ำ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "IQQ23",
+    "ratio": 70
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "NASDAQ:IQQ"
+ },
+ {
   "symbol": "ISHARES SEMI ETF",
   "name": "iShares Semiconductor ETF (SOXX)",
   "desc": "หุ้นเซมิคอนดักเตอร์สหรัฐ 30 ตัว",
@@ -2612,7 +2778,7 @@
   "drs": [
    {
     "sym": "SOXX23",
-    "ratio": null
+    "ratio": 1600
    }
   ],
   "country": "us",
@@ -2627,7 +2793,7 @@
   "drs": [
    {
     "sym": "IVV23",
-    "ratio": null
+    "ratio": 2500
    }
   ],
   "country": "us",
@@ -2990,6 +3156,10 @@
     "ratio": 1500
    },
    {
+    "sym": "KLAC03",
+    "ratio": 3000
+   },
+   {
     "sym": "KLAC19",
     "ratio": 2000
    },
@@ -3094,6 +3264,21 @@
   "tv": "HKEX:992"
  },
  {
+  "symbol": "LEU",
+  "name": "Centrus Energy",
+  "desc": "เชื้อเพลิงยูเรเนียมเสริมสมรรถนะ (HALEU) สำหรับโรงไฟฟ้านิวเคลียร์",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "LEU03",
+    "ratio": 2500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "LEU"
+ },
+ {
   "symbol": "LITE",
   "name": "Lumentum",
   "desc": "อุปกรณ์ออปติกสำหรับคลาวด์และ Data Center",
@@ -3102,6 +3287,10 @@
    {
     "sym": "LITE01",
     "ratio": 7300
+   },
+   {
+    "sym": "LITE03",
+    "ratio": 10000
    },
    {
     "sym": "LITE23",
@@ -3522,11 +3711,30 @@
   "tv": "MRAM"
  },
  {
+  "symbol": "MRK",
+  "name": "Merck & Co.",
+  "desc": "ยารายใหญ่ เจ้าของ Keytruda และวัคซีน Gardasil",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "MRK03",
+    "ratio": 2000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "MRK"
+ },
+ {
   "symbol": "MRVL",
   "name": "Marvell",
   "desc": "ชิป custom AI และ data infrastructure",
   "ccy": "USD",
   "drs": [
+   {
+    "sym": "MRVL03",
+    "ratio": 3000
+   },
    {
     "sym": "MRVL06",
     "ratio": 1000
@@ -3612,6 +3820,21 @@
   "country": "vn",
   "type": "stock",
   "tv": "HOSE:MSN"
+ },
+ {
+  "symbol": "MTRN",
+  "name": "Materion",
+  "desc": "วัสดุขั้นสูงและโลหะผสมเบริลเลียมสำหรับเซมิคอนดักเตอร์/อวกาศ",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "MTRN03",
+    "ratio": 4000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "MTRN"
  },
  {
   "symbol": "MUFG",
@@ -3896,6 +4119,10 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "NOW03",
+    "ratio": 2000
+   },
+   {
     "sym": "NOW19",
     "ratio": 1000
    },
@@ -4071,6 +4298,21 @@
   "country": "us",
   "type": "stock",
   "tv": "ORCL"
+ },
+ {
+  "symbol": "OUST",
+  "name": "Ouster",
+  "desc": "เซนเซอร์ LiDAR สำหรับหุ่นยนต์ ยานยนต์ และ smart infrastructure",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "OUST03",
+    "ratio": 500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "OUST"
  },
  {
   "symbol": "OXY",
@@ -4329,6 +4571,10 @@
   "ccy": "USD",
   "drs": [
    {
+    "sym": "QCOM03",
+    "ratio": 2000
+   },
+   {
     "sym": "QCOM06",
     "ratio": 2000
    },
@@ -4344,6 +4590,21 @@
   "country": "us",
   "type": "stock",
   "tv": "QCOM"
+ },
+ {
+  "symbol": "QNT",
+  "name": "Quantinuum",
+  "desc": "ควอนตัมคอมพิวเตอร์ trapped-ion (Honeywell ถือหุ้นใหญ่)",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "QNT03",
+    "ratio": 1000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "QNT"
  },
  {
   "symbol": "RBLX",
@@ -5444,6 +5705,21 @@
   "tv": "TTMI"
  },
  {
+  "symbol": "TXN",
+  "name": "Texas Instruments",
+  "desc": "ชิป analog และ embedded processor รายใหญ่ของโลก",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "TXN03",
+    "ratio": 4000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "TXN"
+ },
+ {
   "symbol": "UBER",
   "name": "Uber",
   "desc": "เรียกรถและส่งอาหารระดับโลก",
@@ -5519,6 +5795,21 @@
   "tv": "SGX:U11"
  },
  {
+  "symbol": "URA ETF",
+  "name": "Global X Uranium ETF (URA)",
+  "desc": "หุ้นเหมืองยูเรเนียมและเชื้อเพลิงนิวเคลียร์",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "URA03",
+    "ratio": 500
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "AMEX:URA"
+ },
+ {
   "symbol": "USAR",
   "name": "USA Rare Earth",
   "desc": "สำรวจและผลิตแร่หายาก (Rare Earth) ในสหรัฐ",
@@ -5532,6 +5823,21 @@
   "country": "us",
   "type": "stock",
   "tv": "USAR"
+ },
+ {
+  "symbol": "USO ETF",
+  "name": "United States Oil Fund (USO)",
+  "desc": "สัญญาซื้อขายล่วงหน้าน้ำมันดิบ WTI",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "OILUS03",
+    "ratio": 1500
+   }
+  ],
+  "country": "us",
+  "type": "etf",
+  "tv": "AMEX:USO"
  },
  {
   "symbol": "USTR ETF",
@@ -5686,6 +5992,10 @@
     "ratio": 2600
    },
    {
+    "sym": "VRT03",
+    "ratio": 4000
+   },
+   {
     "sym": "VRT23",
     "ratio": 3400
    },
@@ -5697,6 +6007,21 @@
   "country": "us",
   "type": "stock",
   "tv": "VRT"
+ },
+ {
+  "symbol": "VSH",
+  "name": "Vishay Intertechnology",
+  "desc": "ชิ้นส่วนอิเล็กทรอนิกส์ discrete และ passive",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "VISHAY03",
+    "ratio": 500
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "VSH"
  },
  {
   "symbol": "VST",
@@ -5942,5 +6267,20 @@
   "country": "cn",
   "type": "stock",
   "tv": "SZSE:300308"
+ },
+ {
+  "symbol": "ZS",
+  "name": "Zscaler",
+  "desc": "Cloud security แบบ Zero Trust",
+  "ccy": "USD",
+  "drs": [
+   {
+    "sym": "ZS03",
+    "ratio": 2000
+   }
+  ],
+  "country": "us",
+  "type": "stock",
+  "tv": "ZS"
  }
 ]
