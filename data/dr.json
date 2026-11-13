@@ -992,6 +992,10 @@
     "ratio": 440
    },
    {
+    "sym": "CATL11",
+    "ratio": 500
+   },
+   {
     "sym": "CATL23",
     "ratio": 250
    },
@@ -1220,6 +1224,21 @@
   "country": "cn",
   "type": "etf",
   "tv": "HKEX:2845"
+ },
+ {
+  "symbol": "CNLIFE",
+  "name": "China Life Insurance (2628)",
+  "desc": "บริษัทประกันชีวิตใหญ่ที่สุดของจีน รัฐวิสาหกิจ",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "CNLIFE11",
+    "ratio": 25
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "HKEX:2628"
  },
  {
   "symbol": "CNRE",
@@ -2475,6 +2494,21 @@
   ],
   "country": "jp",
   "type": "etf"
+ },
+ {
+  "symbol": "HSBC",
+  "name": "HSBC Holdings (0005)",
+  "desc": "ธนาคารข้ามชาติรายใหญ่ ฐานธุรกิจหลักในฮ่องกงและเอเชีย",
+  "ccy": "HKD",
+  "drs": [
+   {
+    "sym": "HSBC11",
+    "ratio": 150
+   }
+  ],
+  "country": "cn",
+  "type": "stock",
+  "tv": "HKEX:5"
  },
  {
   "symbol": "HSCEI ETF",
@@ -5741,6 +5775,10 @@
   "ccy": "HKD",
   "drs": [
    {
+    "sym": "UBTECH11",
+    "ratio": 70
+   },
+   {
     "sym": "UBTECH23",
     "ratio": 250
    }
@@ -6110,6 +6148,10 @@
    {
     "sym": "WUXI06",
     "ratio": 40
+   },
+   {
+    "sym": "WUXI11",
+    "ratio": 50
    },
    {
     "sym": "WUXI13",
